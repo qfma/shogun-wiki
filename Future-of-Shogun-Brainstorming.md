@@ -1,0 +1,9 @@
+# shogun features wishlist:
+ 
+ 1) OpenMP support
+ 2) replace SG_REF + SG_UNREF with smart pointers (maybe c++11?)
+ 3) support for drop-in replacement for std malloc (memory managment). e.g. jemalloc
+ 4) thread pool
+ 5) add CSGObject::clone() that implements clone() for all the derived classes
+ 6) implement baseline ML algorithms that are almost in every other ML library are available
+ 7) documention/howto/examples for each and every algorithm we have in shogun. the examples preferable implemented in python
