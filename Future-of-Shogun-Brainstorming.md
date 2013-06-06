@@ -9,4 +9,4 @@
  7. documention/howto/examples for each and every algorithm we have in shogun. the examples preferable implemented in python
  8. large scale
  9. SGString -> SGReferencedData
-10. SGSparse* -> SGReferencedData
+ 10. SGSparse* -> SGReferencedData
