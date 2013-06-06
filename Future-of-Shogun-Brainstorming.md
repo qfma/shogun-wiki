@@ -11,4 +11,5 @@
  9. SGString -> SGReferencedData
  10. SGSparse* -> SGReferencedData
  11. CSGObject::equals() support
- 12. nice model selection syntax
+ 12. nice model selection syntax for convenient model selection
+ 13. cmake based configure
