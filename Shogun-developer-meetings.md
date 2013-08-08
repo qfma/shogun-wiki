@@ -7,7 +7,7 @@ IRC Logs http://shogun-toolbox.org/irclogs/%23shogun.2013-08-08.log.html#t22:01
    * Next one: @vigsterkr
 
 2. Doc-Sprint application
-   * @karlnapf wrote a draft, everyone should read and tune
+   * @karlnapf wrote a draft, everyone should read and tune unit **tomorrow**
    * Try to be less mathy, more general this time
 
 3. CMake
