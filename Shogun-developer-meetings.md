@@ -21,3 +21,17 @@ IRC Logs http://shogun-toolbox.org/irclogs/%23shogun.2013-08-08.log.html#t22:01
    * @HeikoS will write a protocol of the founding process
    * @iglesias will set up a voting for the leader once Heiko collected all adresses
    * @sonney2k will take everything and bring it to a Notar in Germany
+
+# Meeting 2, August 27, 2013
+
+1. Preparations for the next (post-GSoC) Shogun release
+  * fixing the remaining issues with buildbots, e.g. static interfaces, cygwin etc
+  * fix CPACK scripts for creating tar.gz and .deb, .rpm and .mpkg packages
+  * create a page on our site where we will upload the nightly built packages
+  * start generating and uploading nightly ipython notebooks
+
+2. Serialisation framework
+  * fix the remaining issues in feature/SerialUTests branch and merge it
+  * add a more precise JSON back-end like msgpack
+
+
