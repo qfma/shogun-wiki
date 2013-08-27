@@ -34,4 +34,5 @@ IRC Logs http://shogun-toolbox.org/irclogs/%23shogun.2013-08-08.log.html#t22:01
   * fix the remaining issues in feature/SerialUTests branch and merge it
   * add a more precise JSON back-end like msgpack
 
-
+3. Integration tests
+  * see the discussion at issue #1253
