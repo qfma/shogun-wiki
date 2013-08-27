@@ -36,3 +36,10 @@ IRC Logs http://shogun-toolbox.org/irclogs/%23shogun.2013-08-08.log.html#t22:01
 
 3. Integration tests
   * see the discussion at issue #1253
+
+4. Application to NIPS workshop
+
+5. auto generate obtain_from_generic function for all classes
+  * see issue #1348
+
+6. Sergey's idea about auto setter/getter 
