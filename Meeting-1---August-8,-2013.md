@@ -1,4 +1,3 @@
-# Meeting 1, August 8, 2013
 IRC Logs http://shogun-toolbox.org/irclogs/%23shogun.2013-08-08.log.html#t22:01
 
 1. Developer meeting organization
