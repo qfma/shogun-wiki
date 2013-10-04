@@ -1,6 +1,7 @@
 Irc logs: http://www.shogun-toolbox.org/irclogs/%23shogun.2013-10-04.log.html
 
 1. Release
+  * Expected date of release is 15th of October
   * Sergey assigns issues to developers
   * Bjorn and Viktor 'repair' the release script
   * Everyone keeps tracking issues and assign them to himself when he is on it
