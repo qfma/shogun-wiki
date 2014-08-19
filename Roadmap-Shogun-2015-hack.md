@@ -1,0 +1,1 @@
+# List of ideas suitable for the hack (and github issue discussion links)
