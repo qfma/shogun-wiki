@@ -30,7 +30,7 @@ REQUIRE(inds.vlen==this->bar.vlen, "Provided index vector length (%d) must match
 Finally
 * Use **proper** English (Start with capital letters, write sentences)
 * Don't forget ```\n``` at the end.
-* Make sure that you **don't cause segfaults**
+* Make sure that you **don't cause segfaults** in your assertions
 
 ```
 void foo(SGVector<index_t> inds)
