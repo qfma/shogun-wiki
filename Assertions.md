@@ -27,7 +27,7 @@ REQUIRE(inds.vlen==this->bar.vlen, "Provided index vector length (%d) must match
 }
 ```
 
-Note that you do not need to type class or method name, this can all be done by the user via for example ```any_shogun_object->set_location_info(location)```, where ```location``` can be one of ```MSG_NONE, MSG_FUNCTION, MSG_LINE_AND_FILE```, see [SGIO class](http://www.shogun-toolbox.org/doc/en/latest/classshogun_1_1SGIO.html)
+Note that you do not need to type class or method name, this can all be done by the user via for example ```any_shogun_object->set_location_info(location)```, where ```location``` can be one of ```MSG_NONE, MSG_FUNCTION, MSG_LINE_AND_FILE```, see [SGIO class](http://www.shogun-toolbox.org/doc/en/latest/classshogun_1_1SGIO.html).
 
 Finally
 * Use **proper** English (Start with capital letters, write sentences)
