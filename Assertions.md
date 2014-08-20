@@ -1,0 +1,1 @@
+Although we have an ```ASSERT``` macro, please try to avoid it where possible.
