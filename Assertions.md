@@ -1,4 +1,4 @@
-Lots of times, we want to make sure certain conditions in the code, such as range bounds on variables: non-negative indices, matching vector/matrix sizes, parameters in [0,1], etc. There are two different cases to check:
+Lots of times, we want to make sure certain conditions in the code, such as range bounds on variables, non-negative indices, matching vector/matrix sizes, parameters in [0,1], etc. There are two different cases to check:
 
 1.  User specified inputs. I.e. when users have the power to break these conditions
 2. Internal checks. I.e. when the user is not able to break the condition, but you want to make sure that things are working in your code
