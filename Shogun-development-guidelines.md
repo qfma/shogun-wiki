@@ -1,10 +1,11 @@
-## General things to obey
+## While coding
 * [Code formatting and style](Code-style)
 * [File organisation and includes](File-organisation)
-
-## Particular topics
 * [Assertions](Assertions)
 * [Unit-testing](Unit-testing)
+* [Interface documentation with Doxygen](Doxygen)
+
+## Testing, examples, documentation
 * [Integration-testing](Integration-testing)
 * [Reference counting](Reference-counting)
 * [API examples](API-examples)
