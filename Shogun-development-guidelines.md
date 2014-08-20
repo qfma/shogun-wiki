@@ -1,5 +1,7 @@
 ## General things
-* TODO
+* Think of some
 
 ## Particular things
-* [How to use assertions](Assertions)
+* [Assertions](Assertions)
+* [Unit-testing](Unit-testing)
+* [Integration-testing](Integration-testing)
