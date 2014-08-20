@@ -4,10 +4,10 @@
 * [Assertions](Assertions)
 * [Unit-testing](Unit-testing)
 * [Interface documentation with Doxygen](Doxygen)
+* [Reference counting](Reference-counting)
 
 ## Testing, examples, documentation
 * [Integration-testing](Integration-testing)
-* [Reference counting](Reference-counting)
 * [API examples](API-examples)
 * [IPython notebooks](IPython-notebooks)
 
