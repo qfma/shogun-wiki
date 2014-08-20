@@ -1,1 +1,0 @@
-# Developer's guide for d-pointers in Shogun #
