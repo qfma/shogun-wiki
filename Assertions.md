@@ -3,7 +3,7 @@ Lots of times, we want to make sure certain conditions in the code, such as rang
 1.  User specified inputs. I.e. when users have the power to break these conditions
 2. Internal checks. I.e. when the user is not able to break the condition, but you want to make sure that things are working in your code
 
-First of all, number 2. is not necessary at all. You should rather write proper unit-tests for your code than being lazy and relying on assertions to check whether things are working correctly.
+First of all, number 2. is not necessary at all. It is _just for your convenience_. You should rather write **proper unit-tests** for your code than being lazy and relying on assertions to check whether things are working correctly.
 
 For the other one: Although we have an ```ASSERT``` macro, please try to avoid it where possible. Imagine there is code like
 ```
