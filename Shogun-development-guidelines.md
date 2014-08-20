@@ -1,6 +1,5 @@
-# Guidelines for developing Shogun code
-
 ## General things
+* TODO
 
 ## Particular things
-### [How to use assertions](Assertions)
+* [How to use assertions](Assertions)
