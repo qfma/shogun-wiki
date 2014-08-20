@@ -1,10 +1,21 @@
 # Shogun hack 2015 Ideas
 This is a list of topics to address when all Shogun developers get together. We aim to have a structured list of items, with links to existing or newly created github issues. Feel free to merge this with content from the other Wiki pages or discussions.
 
-## Ideas and github issues:
+## Usability.
 * A meta-langauge for Shogun example: [#2508](https://github.com/shogun-toolbox/shogun/issues/2508). 
-* Modularise Shogun to reduce compile memory requirements [#2437](https://github.com/shogun-toolbox/shogun/issues/2437)
 * Website updates (Kevin had some ideas?)
+* Manifest "What is Shogun? What tries Shogun to be?"
+* Notebooks of things that are not yet covered
+* Binary packages for various OS 
+ * Ubuntu LTS [#2520](https://github.com/shogun-toolbox/shogun/issues/2520)
+ * OSX [#2521](https://github.com/shogun-toolbox/shogun/issues/2521)
+
+## Efficiency.
+* Modularise Shogun to reduce compile memory requirements [#2437](https://github.com/shogun-toolbox/shogun/issues/2437)
+* Serialisation via external library
+* General polishing of base classes
+
+## Backends.
 * Cluster backend interface
  * Batch cluster backend (PBS/SGE,SLURM,etc) [#1622](https://github.com/shogun-toolbox/shogun/issues/1622)
  * Pthread/openMP backend [#1623](https://github.com/shogun-toolbox/shogun/issues/1623)
@@ -14,12 +25,4 @@ This is a list of topics to address when all Shogun developers get together. We 
 * Populate internal Linear algebra interface
  * Add matrix factorisations [#2526](https://github.com/shogun-toolbox/shogun/issues/2526)
  * Add linear solves [#2527](https://github.com/shogun-toolbox/shogun/issues/2527)
-* Manifest "What is Shogun? What tries Shogun to be?"
-* Notebooks of things that are not yet covered
-* Binary packages for various OS 
- * Ubuntu LTS [#2520](https://github.com/shogun-toolbox/shogun/issues/2520)
- * OSX [#2521](https://github.com/shogun-toolbox/shogun/issues/2521)
-* Serialisation via external library
-* General polishing
-* Bindings to other libraries in an organised way
- * Stan [#1875](https://github.com/shogun-toolbox/shogun/issues/1875) [#1998](https://github.com/shogun-toolbox/shogun/issues/1998) [#1929](https://github.com/shogun-toolbox/shogun/issues/1929) 
+ * Stan for autodiff and MCMC [#1875](https://github.com/shogun-toolbox/shogun/issues/1875) [#1998](https://github.com/shogun-toolbox/shogun/issues/1998) [#1929](https://github.com/shogun-toolbox/shogun/issues/1929) 
