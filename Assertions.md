@@ -16,7 +16,7 @@ ASSERT(i>=0);
 ```
 All the user will get when running Shogun is an assertion error. If he is brave and turns on printing line and file of the error, the information is very sparse, resulting in frustration.
 
-Instead, use the ```REQUIRE``` macro, and give _proper error messages_, which means information of what is wrong, and in particular _how it differs from what was expected_. Example
+Instead, use the ```REQUIRE``` macro, and give **proper error messages**, which means information of what is wrong, and in particular _how it differs from what was expected_. Example
 ```
 void foo(index_t i, SGVector<index_t> inds)
 {
@@ -28,11 +28,10 @@ REQUIRE(inds.vlen==this->bar.vlen, "Provided index vector length (%d) must match
 ```
 
 Finally
-* Use proper English (Start with capital letters, write sentences)
+* Use **proper** English (Start with capital letters, write sentences)
 * Don't forget ```\n``` at the end.
-* Make sure that you don't case segfaults
+* Make sure that you **don't cause segfaults**
 
-```
 ```
 void foo(SGVector<index_t> inds)
 {
