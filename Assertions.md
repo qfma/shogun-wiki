@@ -23,7 +23,7 @@ void foo(index_t i, SGVector<index_t> inds)
 ...
 REQUIRE(i>=0, "Provided index (%d) must be greater than 0\n", i);
 ...
-REQUIRE(inds.vlen==this->bar.vlen, "Provided index vector length (%d) must match the length of internal vector (%d)\n", inds.vlen, this->bar.vlen);
+REQUIRE(inds.vlen==this->bar.vlen, "Provided index vector length (%d) must match the length of internal vector (%d).\n", inds.vlen, this->bar.vlen);
 }
 ```
 
@@ -37,7 +37,17 @@ void foo(SGVector<index_t> inds)
 {
 ...
 // First check makes sure that second check does not segfault
-REQUIRE(inds.vlen>=1, "Length of provided vector (%d) must be at least 1\n", inds.vlen);
-REQUIRE(inds[0]>0, "First element of provided vector (%d) must be greater than 0\n", inds[0]);
+REQUIRE(inds.vlen>=1, "Length of provided vector (%d) must be at least 1.\n", inds.vlen);
+REQUIRE(inds[0]>0, "First element of provided vector (%d) must be greater than 0.\n", inds[0]);
+}
+```
+
+```
+void foo(CKernel* kernel)
+{
+...
+// First check makes sure that second check does not segfault
+REQUIRE(kernel, "No kernel provided.\n");
+REQUIRE(kernel->get_width()>=1, "Provided kernel width (%f) must be greater than 1.0.\n", kernel->get_width());
 }
 ```
