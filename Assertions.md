@@ -14,4 +14,31 @@ ASSERT(i>=0);
 ...
 }
 ```
-All the user will get when running Shogun is an assertion error. If he is brave and turns on printing line and file of the error, the information is very sparse, resulting in frustration
+All the user will get when running Shogun is an assertion error. If he is brave and turns on printing line and file of the error, the information is very sparse, resulting in frustration.
+
+Instead, use the ```REQUIRE``` macro, and give _proper error messages_, which means information of what is wrong, and in particular _how it differs from what was expected_. Example
+```
+void foo(index_t i, SGVector<index_t> inds)
+{
+...
+REQUIRE(i>=0, "Provided index (%d) must be greater than 0\n", i);
+...
+REQUIRE(inds.vlen==this->bar.vlen, "Provided index vector length (%d) must match the length of internal vector (%d)\n", inds.vlen, this->bar.vlen);
+}
+```
+
+Finally
+* Use proper English (Start with capital letters, write sentences)
+* Don't forget ```\n``` at the end.
+* Make sure that you don't case segfaults
+
+```
+```
+void foo(SGVector<index_t> inds)
+{
+...
+// First check makes sure that second check does not segfault
+REQUIRE(inds.vlen>=1, "Length of provided vector (%d) must be at least 1\n", inds.vlen);
+REQUIRE(inds[0]>0, "First element of provided vector (%d) must be greater than 0\n", inds[0]);
+}
+```
