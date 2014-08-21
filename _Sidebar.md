@@ -1,1 +1,1 @@
- a
+Click here for all pages
