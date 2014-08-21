@@ -9,6 +9,7 @@ This is a list of topics to address when all Shogun developers get together. We 
 * Binary packages for various OS 
  * Ubuntu LTS [#2520](https://github.com/shogun-toolbox/shogun/issues/2520)
  * OSX [#2521](https://github.com/shogun-toolbox/shogun/issues/2521)
+* Improve [Shogun development guidelines](Shogun development guidelines)
 
 ## Efficiency.
 * Modularise Shogun to reduce compile memory requirements [#2437](https://github.com/shogun-toolbox/shogun/issues/2437)
