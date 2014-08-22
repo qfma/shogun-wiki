@@ -16,8 +16,8 @@ This is a list of topics to address when all Shogun developers get together. We 
 * Serialisation via external library (Viktor?)
 * General polishing of base classes (Thoralf?)
 
-## Backends.
-* Cluster backend interface
+## Computing Backends.
+* Parallelism backend interface
  * Batch cluster backend (PBS/SGE,SLURM,etc) [#1622](https://github.com/shogun-toolbox/shogun/issues/1622)
  * Pthread/openMP backend [#1623](https://github.com/shogun-toolbox/shogun/issues/1623)
  * Director classes to use Shogun as scheduler from modular interface [#1624](https://github.com/shogun-toolbox/shogun/issues/1624)
