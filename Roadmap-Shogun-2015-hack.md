@@ -26,4 +26,5 @@ This is a list of topics to address when all Shogun developers get together. We 
 * Populate internal Linear algebra interface
  * Add matrix factorisations [#2526](https://github.com/shogun-toolbox/shogun/issues/2526)
  * Add linear solves [#2527](https://github.com/shogun-toolbox/shogun/issues/2527)
- * Stan for autodiff and MCMC [#1875](https://github.com/shogun-toolbox/shogun/issues/1875) [#1998](https://github.com/shogun-toolbox/shogun/issues/1998) [#1929](https://github.com/shogun-toolbox/shogun/issues/1929) 
+* Stan for autodiff and MCMC [#1875](https://github.com/shogun-toolbox/shogun/issues/1875) [#1998](https://github.com/shogun-toolbox/shogun/issues/1998) [#1929](https://github.com/shogun-toolbox/shogun/issues/1929) 
+* Vowpal Wabbit update
