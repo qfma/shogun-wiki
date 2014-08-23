@@ -4,6 +4,7 @@ This is a list of topics to address when all Shogun developers get together. We 
 ## Usability.
 * A meta-langauge for Shogun example: [#2508](https://github.com/shogun-toolbox/shogun/issues/2508). 
 * Website updates (Kevin had some ideas?)
+ * Developer information (wiki or website?) [#2533](https://github.com/shogun-toolbox/shogun/issues/2533)
 * Manifest "What is Shogun? What tries Shogun to be?"
 * Notebooks of things that are not yet covered
 * Binary packages for various OS 
