@@ -11,10 +11,11 @@ This is a list of topics to address when all Shogun developers get together. We 
  * OSX [#2521](https://github.com/shogun-toolbox/shogun/issues/2521)
 * Improve [Shogun development guidelines](Shogun development guidelines)
 
-## Efficiency.
+## Efficiency & Clean-ups
 * Modularise Shogun to reduce compile memory requirements [#2437](https://github.com/shogun-toolbox/shogun/issues/2437) (Sergey, link your work here)
 * Serialisation via external library (Viktor?)
-* General polishing of base classes (Thoralf?)
+* General polishing of base classes [#2113](https://github.com/shogun-toolbox/shogun/issues/2113)(Thoralf?)
+* DPointers (Sergey)
 
 ## Computing Backends.
 * Parallelism backend interface
