@@ -24,6 +24,7 @@ This is a list of topics to address when all Shogun developers get together. We 
  * Director classes to use Shogun as scheduler from modular interface [#1624](https://github.com/shogun-toolbox/shogun/issues/1624)
  * Add dependencies between jobs [#2524](https://github.com/shogun-toolbox/shogun/issues/2524)
  * Graphlab backend [#2525](https://github.com/shogun-toolbox/shogun/issues/2525)
+ * Zookeeper coordination?
 * Populate internal Linear algebra interface
  * Add matrix factorisations [#2526](https://github.com/shogun-toolbox/shogun/issues/2526)
  * Add linear solves [#2527](https://github.com/shogun-toolbox/shogun/issues/2527)
