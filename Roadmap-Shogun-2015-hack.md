@@ -13,6 +13,7 @@ This is a list of topics to address when all Shogun developers get together. We 
 * Improve [Shogun development guidelines](Shogun development guidelines)
 
 ## Efficiency & Clean-ups
+* Efficient and flexible data structure for n-dimensional array [#2123](https://github.com/shogun-toolbox/shogun/issues/2123)
 * Modularise Shogun to reduce compile memory requirements [#2437](https://github.com/shogun-toolbox/shogun/issues/2437) (some prototype is https://github.com/lisitsyn/aer)
 * Serialisation via external library (Viktor?)
 * General polishing of base classes [#2113](https://github.com/shogun-toolbox/shogun/issues/2113)(Thoralf?)
