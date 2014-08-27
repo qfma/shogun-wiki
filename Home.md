@@ -9,7 +9,7 @@ Welcome to the Shogun wiki!
 ### Documents
  * [Development guidelines](Shogun-development-guidelines)
  * [Brain storm on future of Shogun (2013)](Future-of-Shogun-Brainstorming)
- * [Logs of developer meetings (2013)](Developer-meetings)
+ * [Logs of developer meetings (2013)](Shogun-developer-meetings)
 
 ### Credits
  * [Authors](AUTHORS)
