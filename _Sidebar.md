@@ -8,10 +8,10 @@ Welcome to the Shogun wiki!
   * [CMake (build process)](README_cmake)
 
 * Documents
- * [Development guidelines](Shogun-development-guidelines)
- * [Ideas for the 2015 hack meeting](Roadmap-Shogun-2015-hack)
- * [Brain storm on future of Shogun (2013)](Future-of-Shogun-Brainstorming)
- * [Logs of developer meetings (2013)](Shogun-developer-meetings)
+ * [Dev guidelines](Shogun-development-guidelines)
+ * [2015 hack ideas](Roadmap-Shogun-2015-hack)
+ * [Brain storm Future Shogun (2013)](Future-of-Shogun-Brainstorming)
+ * [Logs dev meetings (2013)](Shogun-developer-meetings)
 
 * Credits
  * [Authors](AUTHORS)
