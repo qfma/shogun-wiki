@@ -1,5 +1,6 @@
 Welcome to the Shogun wiki!
 
+* [Home](Home)
 * Readmes:
   * [Quickstart](QUICKSTART)
   * [Data](README_data)
