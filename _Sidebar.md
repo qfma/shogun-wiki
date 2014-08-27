@@ -1,1 +1,20 @@
-Click here for all pages
+Welcome to the Shogun wiki!
+
+* Readmes:
+  * [Quickstart](QUICKSTART)
+  * [Data](README_data)
+  * [Developer](README_developer)
+  * [CMake (build process)](README_cmake)
+
+* Documents
+ * [Development guidelines](Shogun-development-guidelines)
+ * [Brain storm on future of Shogun (2013)](Future-of-Shogun-Brainstorming)
+ * [Logs of developer meetings (2013)](Shogun-developer-meetings)
+
+* Credits
+ * [Authors](AUTHORS)
+ * [Contributions](CONTRIBUTIONS)
+ * [License](LICENSE)
+  * [msufsort](LICENSE_msufsort)
+  * [SVMlight](LICENSE_SVMlight)
+  * [Tapkee](LICENSE_tapkee)
