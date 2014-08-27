@@ -153,6 +153,9 @@ FORMATTING for formatting instructions, MACROS on how to use and name macros,
 TYPES on which types to use, FUNCTIONS on how functions should look like and
 NAMING CONVENTIONS for the naming scheme.
 
+*CODING STYLE:*
+See [here](Code-style)
+
 *VERSIONING SCHEME:*
 
 The git repo for the project is hosted on GitHub at
