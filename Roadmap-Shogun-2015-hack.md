@@ -34,3 +34,15 @@ This is a list of topics to address when all Shogun developers get together. We 
  * Add linear solves [#2527](https://github.com/shogun-toolbox/shogun/issues/2527)
 * Stan for autodiff and MCMC [#1875](https://github.com/shogun-toolbox/shogun/issues/1875) [#1998](https://github.com/shogun-toolbox/shogun/issues/1998) [#1929](https://github.com/shogun-toolbox/shogun/issues/1929) 
 * Vowpal Wabbit update
+
+## SHOGUN goes large-scale
+* Investigate how non-toy examples scale in SHOGUN.
+* Increase awareness of benchmarking and profiling:
+** Identify hotspots using selected examples and right tools (gprof?).
+** Create minimal example(s!) which covers hotspot and benchmark.
+** Start optimizing minimal example(s!) and benchmark again.
+* Developers should know how to benchmark and profile: Small document to describe this?
+* If you know examples that scale better in other frameworks, please document them here, so we can investigate:
+** ...
+* Better support of sparse-datastructures and online-algorithms.
+
