@@ -38,11 +38,11 @@ This is a list of topics to address when all Shogun developers get together. We 
 ## SHOGUN goes large-scale
 * Investigate how non-toy examples scale in SHOGUN.
 * Increase awareness of benchmarking and profiling:
-** Identify hotspots using selected examples and right tools (gprof?).
-** Create minimal example(s!) which covers hotspot and benchmark.
-** Start optimizing minimal example(s!) and benchmark again.
+ * Identify hotspots using selected examples and right tools (gprof?).
+ * Create minimal example(s!) which covers hotspot and benchmark.
+ * Start optimizing minimal example(s!) and benchmark again.
 * Developers should know how to benchmark and profile: Small document to describe this?
 * If you know examples that scale better in other frameworks, please document them here, so we can investigate:
-** ...
+ * ...
 * Better support of sparse-datastructures and online-algorithms.
 
