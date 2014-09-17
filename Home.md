@@ -1,6 +1,7 @@
 Welcome to the Shogun wiki!
 
 ### Readmes:
+  * [Project description](Project-description)
   * [Quickstart](QUICKSTART)
   * [Data](README_data)
   * [Developer](README_developer)
