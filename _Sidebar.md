@@ -2,6 +2,7 @@ Welcome to the Shogun wiki!
 
 * [Home](Home)
 * Readmes:
+  * [Description](Project-description)
   * [Quickstart](QUICKSTART)
   * [Data](README_data)
   * [Developer](README_developer)
