@@ -1,0 +1,6 @@
+The Shogun team (in no particular ordering, and yet incomplet)
+ * [Heiko Strathmann, irc: HeikoS](Heiko_Strathmann)
+ * [Kevin Hughes, irc: pickle27](Kevin_Hughes)
+ * [Fernando Iglesias, irc: iglesias](Fernando_Iglesias)
+ * [Sergey Lisitsyn, irc: lisitsyn](Sergey_Lisitsyn)
+ * [Rahul De, irc: lamday](Rahul_De)
