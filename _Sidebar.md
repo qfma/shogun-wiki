@@ -15,6 +15,7 @@ Welcome to the Shogun wiki!
  * [Logs IRC meetings](Shogun-developer-meetings)
 
 * Credits
+ * [Dev profiles](Developer_profiles)
  * [Authors](AUTHORS)
  * [Contributions](CONTRIBUTIONS)
  * [License](LICENSE)
