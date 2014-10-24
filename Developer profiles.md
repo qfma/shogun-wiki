@@ -1,6 +1,6 @@
 The Shogun team (in no particular ordering, and yet incomplete)
- * [Sören Sonnenburg, irc: sonney2k](Sören Sonnenburg)
- * [Gunnar Rätsch](Gunnar Rätsch)
+ * Sören Sonnenburg, irc: sonney2k
+ * Gunnar Rätsch
  * [Sergey Lisitsyn, irc: lisitsyn](Sergey Lisitsyn)
  * [Heiko Strathmann, irc: HeikoS](Heiko Strathmann)
  * [Fernando Iglesias, irc: iglesias](Fernando Iglesias)
