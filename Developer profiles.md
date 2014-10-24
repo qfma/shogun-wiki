@@ -8,4 +8,5 @@ The Shogun team (in no particular ordering, and yet incomplete):
  * [Rahul De, irc: lambday](Rahul De).
  * Viktor Gal, irc: wiking.
  * Björn Esser, irc: besser82.
+ * Thoralf Klein, irc: thoralf.
 
