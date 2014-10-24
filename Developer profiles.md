@@ -7,5 +7,5 @@ The Shogun team (in no particular ordering, and yet incomplete)
  * [Kevin Hughes, irc: pickle27](Kevin Hughes)
  * [Rahul De, irc: lambday](Rahul De)
  * [Viktor Gal, irc: wiking](Viktor Gal)
- * [Björn Esser, irc: besser82](Björn Esser)
+ * Björn Esser, irc: besser82
 
