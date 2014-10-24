@@ -6,6 +6,6 @@ The Shogun team (in no particular ordering, and yet incomplete):
  * [Fernando J. Iglesias García, irc: iglesiasg](Fernando J. Iglesias García).
  * [Kevin Hughes, irc: pickle27](Kevin Hughes).
  * [Rahul De, irc: lambday](Rahul De).
- * [Viktor Gal, irc: wiking](Viktor Gal).
+ * Viktor Gal, irc: wiking.
  * Björn Esser, irc: besser82.
 
