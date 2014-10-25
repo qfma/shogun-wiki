@@ -7,9 +7,6 @@ Furthermore, the SWIG magic might be very interesting for other projects, so it 
 All ```SG*``` classes are primarily meant for data exchange with Shogun's interfaces (in particular modular interfaces). As such, they are only meant to represent data, not offer operations on those (apart from fundamental access such as ```[]``` operators and similar. However, currently, those classes contain lots of algrothmic code, see for example [here](http://www.shogun-toolbox.org/doc/en/latest/classshogun_1_1SGVector.html): ```range_fill, abs, permute```, etc.
 Every of those methods will result in a wrapper method in SWIG, for *every* of the template arguments. This is likely to be one reason why SWIG grew to big. All such methods should be moved into ```CMath, CStatistics, linalg```, or similar. This way, SWIG produces less code, and separation of concerns is respected: These objects are just there for passing data through Shogun's internal and external interfaces.
 
-## Eigen3
-Compiling Shogun with Eigen3 uses around 2GB of memory, while without Eigen only consumes a few hundred megabytes. Maybe there is an Eigen3.h include in a Shogun header file? This would case SWIG to go through Eigen's templates, costing a lot of computation.
-
 ## Wrapper/Impl classes?
 In order to further minimise the code that SWIG touches or generates, we have to think about a way to hide things from it. In an optimal world, there is a class that *only* represents the interface to modular interfaces, i.e. how Shogun is used from outside C++. This class in its .cpp file then might call methods of an implementation helper class. See for example the [LMNN](http://www.shogun-toolbox.org/doc/en/latest/LMNN_8cpp_source.html) class, which uses a helper class in its implementation that contains a bunch of helper methods.
 
