@@ -24,7 +24,7 @@ The class `CSVFile` implements a bunch of methods to read data from disk, e.g. `
 Here are two suggestions. The first one can be applied to *any* of the classes that blow up SWIG's output, the second involves clean-ups that might need a bit more thought, but are cleaner solutions.
 
 #### SWIG's ```%ignore``` and the ```#ifndef SWIG // SWIG should skip this``` guard
-There are a number of public methods that *have* to be public (for example the ```CLibSVMFile::get_vector*``` methods that are called from other C++ classes), but that we do not want to expose to SWIG. These can be explicitly ignored.
+There are a number of public methods that *have* to be public (for example the ```CLibSVMFile::get_vector*``` methods that are called from other C++ classes), but that we do not want to expose to SWIG. These can be explicitly ignored. See example below.
 
 #### Clean up ```SGVector``` and similar
 All ```SG*``` classes are primarily meant for data exchange with Shogun's interfaces (in particular modular interfaces). As such, they are only meant to represent data, not offer operations on those (apart from fundamental access such as ```[]``` operators and similar). However, currently, those classes contain lots of algrothmic code, see for example [here](http://www.shogun-toolbox.org/doc/en/latest/classshogun_1_1SGVector.html): ```range_fill, abs, permute```, etc.
@@ -51,7 +51,13 @@ Adding in ```LibSVMFile.h```
 %ignore set_sparse_matrix;
 #endif
 ```
-and compiling reduces the number of lines in ```modshogunPYTHON_wrap.cxx``` by roughly 20k.
+or alternatively putting
+```
+#ifndef SWIG // SWIG should skip this part
+... all set_get-vector/matrix methods
+#endif // #ifndef SWIG // SWIG should skip this part
+```
+and compiling reduces the number of lines in ```modshogunPYTHON_wrap.cxx``` by roughly 20k (from 990k to 970k)
 In particular:
 ```
 $ cat src/interfaces/python_modular/modshogunPYTHON_wrap.cxx |  grep get_vector | grep LibSVMFile
