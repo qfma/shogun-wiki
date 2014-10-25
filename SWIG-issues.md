@@ -23,10 +23,10 @@ The class `CSVFile` implements a bunch of methods to read data from disk, e.g. `
 ## What helps?
 Here are two suggestions. The first one can be applied to *any* of the classes that blow up SWIG's output, the second involves clean-ups that might need a bit more thought, but are cleaner solutions.
 
-### SWIG's ```%ignore``` and the ```#ifndef SWIG // SWIG should skip this``` guard
+#### SWIG's ```%ignore``` and the ```#ifndef SWIG // SWIG should skip this``` guard
 There are a number of public methods that *have* to be public (for example the ```CLibSVMFile::get_vector*``` methods that are called from other C++ classes), but that we do not want to expose to SWIG. These can be explicitly ignored.
 
-## Clean up ```SGVector``` and similar
+#### Clean up ```SGVector``` and similar
 All ```SG*``` classes are primarily meant for data exchange with Shogun's interfaces (in particular modular interfaces). As such, they are only meant to represent data, not offer operations on those (apart from fundamental access such as ```[]``` operators and similar). However, currently, those classes contain lots of algrothmic code, see for example [here](http://www.shogun-toolbox.org/doc/en/latest/classshogun_1_1SGVector.html): ```range_fill, abs, permute```, etc.
 Every of those methods will result in a wrapper method in SWIG, for *every* of the template arguments. All such methods should be moved into ```CMath, CStatistics, linalg```, or similar. This way, SWIG produces less code, and separation of concerns is respected: These objects are just there for passing data through Shogun's internal and external interfaces.
 
