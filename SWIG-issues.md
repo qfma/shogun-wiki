@@ -11,7 +11,13 @@ In an optimal world, there is a class that *only* represents the interface to mo
 
 This is closely related to D-pointers. We investigated this and concluded that it will not help us.  SWIG only touches public methods. As all helper methods that would go into an implementation class can just be made protected, this problem can easily be solved. 
 
-The other problem with this approach is that there are C++ methods that *need* to be public, but should *not* be in SWIG. The only solution for those is explicitly ignore them (see below). Creating seperate interface classes just for SWIG will not help as instance of them need to be passed around in the modular interfaces, and these instance need to implement certain interfaces on a c++ level.
+The other problem with this approach is that there are C++ methods that *need* to be public, but should *not* be in SWIG. The only solution for those is explicitly ignore them (see below). Creating separate interface classes just for SWIG will not help as instances of them need to be passed around in the modular interfaces, and these instances need to implement certain interfaces on a C++ level. Let's clarify this through an example. Consider the following code from the Python modular interface:
+
+```
+feats = RealFeatures(CSVFile(fname))
+```
+
+The class `CSVFile` implements a bunch of methods to read data from disk, e.g. `get_vector(float*& vector, int& len)`. This method needs to be public to be accessible from feature classes (such as RealFeatures). However, it does not need to be accessible at all from the modular interfaces provided by SWIG. Therefore, it must be a public method of `CSVFile`, but we don't want SWIG to generate any bindings for it.
 
 ## What helps?
 Here are two suggestions. The first one can be applied to *any* of the classes that blow up SWIG's output, the second involves clean-ups that might need a bit more thought, but are cleaner solutions.
