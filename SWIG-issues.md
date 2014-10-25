@@ -23,7 +23,7 @@ The class `CSVFile` implements a bunch of methods to read data from disk, e.g. `
 ## What helps?
 Here are two suggestions. The first one can be applied to *any* of the classes that blow up SWIG's output, the second involves clean-ups that might need a bit more thought, but are cleaner solutions.
 
-### SWIG's ```%ignore``` and ```#ifndef SWIG // SWIG should skip this``` guards
+### SWIG's ```%ignore``` and the ```#ifndef SWIG // SWIG should skip this``` guard
 There are a number of public methods that *have* to be public (for example the ```CLibSVMFile::get_vector*``` methods that are called from other C++ classes), but that we do not want to expose to SWIG. These can be explicitly ignored.
 
 ## Clean up ```SGVector``` and similar
