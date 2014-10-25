@@ -4,7 +4,7 @@ Compiling modular interfaces more and more gets a problem. Both compile time and
 Furthermore, the SWIG magic might be very interesting for other projects, so it could be a good idea to pull it out from the Shogun source tree into a seperate mini-project.
 
 ## Why SWIG is big
-Every method in Shogun's header files that are included in the ```modular.i``` generates a couple of lines in the SWIG output. In particular expensive are templated methods as they are instantiated for all basic data-types in Shogun. The way to solve this therefore must be to reduce the number of methods exposed to SWIG. [Here](https://github.com/shogun-toolbox/shogun/issues/2562) is the top 100 list. There are a couple of ways to address this
+Every method in Shogun's header files that are included in the ```modular.i``` generates a couple of lines in the SWIG output. In particular, templated methods are expensive as they are instantiated for all basic data-types in Shogun. The way to solve this therefore must be to reduce the number of methods exposed to SWIG. [Here](https://github.com/shogun-toolbox/shogun/issues/2562) is the top 100 list. There are a couple of ways to address this:
 
 ## D-pointer-like ideas and why they do *not* help
 In an optimal world, there is a class that *only* represents the interface to modular interfaces, i.e. how Shogun is used from outside C++. This class in its .cpp file then might call methods of an implementation helper class. See for example the [LMNN](http://www.shogun-toolbox.org/doc/en/latest/LMNN_8cpp_source.html) class, which uses a helper class in its implementation that contains a bunch of helper methods.
