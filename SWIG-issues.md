@@ -162,4 +162,4 @@ SWIGINTERN PyObject *_wrap_LibSVMFile_get_vector(PyObject *self, PyObject *args)
 
 ```
 Doing the same command when the ```%ignore``` are added leaves the output empty.
-*Note:* I believe that these SWIG ignores should *not* be in a separate file (currently ```modshogun_ignores```. It's way harder to maintain. Doing those in the interface classes makes it very easy to get a feeling for where its forgotten, etc.
+*Note:* I believe that these SWIG ignores should *not* be in a separate file (currently ```modshogun_ignores```). It's way harder to maintain. Doing those in the interface classes makes it very easy to get a feeling for where its forgotten, etc.
