@@ -3,6 +3,9 @@ Compiling modular interfaces more and more gets a problem. Both compile time and
 
 Furthermore, the SWIG magic might be very interesting for other projects, so it could be a good idea to pull it out from the Shogun source tree into a seperate mini-project.
 
+## Top 100 classes in SWIG's output
+Thoralf made [this list](https://github.com/shogun-toolbox/shogun/issues/2562) of how much impact all classes have in SWIG's output
+
 ## Clean up ```SGVector``` and similar
 All ```SG*``` classes are primarily meant for data exchange with Shogun's interfaces (in particular modular interfaces). As such, they are only meant to represent data, not offer operations on those (apart from fundamental access such as ```[]``` operators and similar. However, currently, those classes contain lots of algrothmic code, see for example [here](http://www.shogun-toolbox.org/doc/en/latest/classshogun_1_1SGVector.html): ```range_fill, abs, permute```, etc.
 Every of those methods will result in a wrapper method in SWIG, for *every* of the template arguments. This is likely to be one reason why SWIG grew to big. All such methods should be moved into ```CMath, CStatistics, linalg```, or similar. This way, SWIG produces less code, and separation of concerns is respected: These objects are just there for passing data through Shogun's internal and external interfaces.
