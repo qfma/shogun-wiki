@@ -32,7 +32,7 @@ Note that you do not need to type class or method name, this can all be done by 
 Finally
 * Use **proper** English (Start with capital letters, write sentences)
 * Don't forget ```\n``` at the end.
-* Make sure that you **don't cause segfaults** in your assertions
+* Make sure that you **don't cause segfaults** in your assertions, check bounds, pointer valid, etc
 
 ```
 void foo(SGVector<index_t> inds)
