@@ -2,6 +2,8 @@
 Compiling modular interfaces more and more gets a problem. Both compile time and memory requirements explode with more classes added to Shogun. We already sometimes hit the memory limit of travis, which results in unfinished (gray) builds, for example [this one](https://github.com/shogun-toolbox/shogun/issues/2562).
 
 Furthermore, the SWIG magic might be very interesting for other projects, so it could be a good idea to pull it out from the Shogun source tree into a seperate mini-project.
+
+This article presents some thoughts and possible solutions to this problem.
  
 ## Initial draft
 See [here](https://github.com/shogun-toolbox/shogun/pull/2567). Reduce the size of SWIG's from 991480 to 813388. Peak memory usage from 2.4GiB to 1.9 GiB. This is just due to a few include guards.
@@ -66,6 +68,10 @@ Memory usage (tuning both above classes) dropped from 2.34 to 2.17GiB. Keep in m
 
 *Note:* I believe that these SWIG ignores should *not* be in a separate file (currently ```modshogun_ignores```). It's way harder to maintain. Doing those in the interface classes makes it very easy to get a feeling for where its forgotten, etc.
 
+## Further improvements
+We can remove methods from SWIG. However, at some point, due to the sheer number of classes added to Shogun, we are likely to break memory bounds -- all SWIG output is put into a single file. This opens another door to deal with the problem. Shogun could be split into multiple modules (say core-framework and algorithms, where algorithms could be partitioned into more parts), which could be translated through SWIG seperately. This allows to scale the number of exposed classes much even further.
+
+## Appendix
 ###Comparing peaks of memory used by a process group
 
 [Source](https://gist.github.com/netj/526585) (retrieved 26th October, 2014).
