@@ -11,8 +11,9 @@ SWIG also contains a bunch of typemaps: Those are responsible for mapping memory
 
 ## Two public interfaces: SWIG and C++
 In order to avoid the SWIG output to explode, we want to minimise the number of methods being exposed in SWIG. There are two types of public interfaces in Shogun:
- * public c++ methods
+ * Public c++ methods
  * SWIG methods (subset of the above)
+
 Note that there are methods that belong to the first but *not* the second type. For example helper methods that need to be called from another c++ class, but are usually not called from within the modular interface. A Python example is 
 ```
 fname='fm.csv'
