@@ -23,7 +23,7 @@ Here, ```CSVFile(fname)``` is an instance of ```CSVFile```, whose c++ interface 
 
 ```virtual void get_vector(float64_t*& vector, int32_t& len);```
 
-in ```CSVFile```. However, those methods should not be exposed in Python as SWIG's output gets too large and users actually do not need those methods -- they just want to pass the instance of ```CSVFile``` to another class (```RealFeatures``` here), which then calls the ```get_vector``` methods to load data.
+in ```CSVFile```. However, those methods should not be exposed in Python as SWIG's output gets too large (method exists for *every* type) and users actually do not need those methods -- they just want to pass the instance of ```CSVFile``` to another class (```RealFeatures``` here), which then calls the ```get_vector``` methods to load data.
 
 
 
