@@ -1,11 +1,12 @@
 ## While coding
 * [Code formatting and style](Code-style)
-* [File organisation and includes (empty)](File-organisation)
+* [SWIG interfaces](SWIG-interfaces)
 * [Assertions and REQUIRE](Assertions)
 * [Unit-testing (almost empty)](Unit-testing)
 * [Interface documentation with Doxygen (empty)](Doxygen)
 * [Reference counting (empty)](Reference-counting)
-* [SWIG interfaces](SWIG-interfaces)
+* [File organisation and includes (empty)](File-organisation)
+
 
 ## Testing, examples, documentation
 * [Integration-testing (almost empty)](Integration-testing)
