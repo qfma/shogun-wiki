@@ -5,6 +5,7 @@
 * [Unit-testing](Unit-testing)
 * [Interface documentation with Doxygen](Doxygen)
 * [Reference counting](Reference-counting)
+* [SWIG interfaces](SWIG-interfaces)
 
 ## Testing, examples, documentation
 * [Integration-testing](Integration-testing)
