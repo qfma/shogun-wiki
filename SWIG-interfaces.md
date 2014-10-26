@@ -51,10 +51,7 @@ Alternatively, one can do
 ```
 The first option is clearly better as no pattern/type/signature matching has to be done.
 
-Shogun also has a blacklist where we used to add methods to ignore: 
-```shogun/src/interfaces/modular/modshogun.i```
-
-This file is very hard to maintain, and is therefore *not* recommended to use. Excluding methods from SWIG in the C++ interface file puts both of Shogun's public interfaces (as listed above) in one place and therefore allows to easily get an overview.
+Shogun also has a blacklist where we used to add methods to ignore, ```modshogun_ignores.i```. This file is very hard to maintain, and is therefore *not* recommended to use. Excluding methods from SWIG in the C++ interface file puts both of Shogun's public interfaces (as listed above) in one place and therefore allows to easily get an overview.
 
 ## Summary
 When writing a new Shogun class
