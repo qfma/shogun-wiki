@@ -20,6 +20,7 @@ fname='fm.csv'
 feats=RealFeatures(CSVFile(fname))
 ```
 Here, ```CSVFile(fname)``` is an instance of ```CSVFile```, whose c++ interface implements a bunch of methods to access individual vectors, e.g.,
+
 ```virtual void get_vector(float64_t*& vector, int32_t& len);```
 
 in ```CSVFile```. However, those methods should not be exposed in Python as SWIG's output gets too large and users actually do not need those methods -- they just want to pass the instance of ```CSVFile``` to another class (```RealFeatures``` here), which then calls the ```get_vector``` methods to load data.
