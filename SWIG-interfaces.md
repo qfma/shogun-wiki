@@ -55,7 +55,7 @@ Shogun also has a blacklist where we used to add methods to ignore, ```modshogun
 
 ## Summary
 When writing a new Shogun class
- * Think about the interface
+ * Think about the interface, make it clean (maybe use D-pointers)
  * Don't include any non-Shogun objects in there
  * Try to make all helper methods private/protected to hide them from SWIG
  * For helper methods that cannot be private (as need to be called by other classes), mark them to be ignored by SWIG.
