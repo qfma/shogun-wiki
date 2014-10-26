@@ -2,9 +2,9 @@
 Compiling modular interfaces more and more gets a problem. Both compile time and memory requirements explode with more classes added to Shogun. We already sometimes hit the memory limit of travis, which results in unfinished (gray) builds, for example [this one](https://github.com/shogun-toolbox/shogun/issues/2562).
 
 Furthermore, the SWIG magic might be very interesting for other projects, so it could be a good idea to pull it out from the Shogun source tree into a seperate mini-project.
-
+ 
 ## Initial draft
-See [here](https://github.com/shogun-toolbox/shogun/pull/2567)
+See [here](https://github.com/shogun-toolbox/shogun/pull/2567). Reduce the size of SWIG's from 991480 to 813388. This is just due to a few include guards.
 
 ## Why SWIG is big
 Every method in Shogun's header files that are included in the ```modular.i``` generates a couple of lines in the SWIG output. In particular, templated methods are expensive as they are instantiated for all basic data-types in Shogun. The way to solve this therefore must be to reduce the number of methods exposed to SWIG. [Here](https://github.com/shogun-toolbox/shogun/issues/2562) is the top 10 list of classes with most methods exposed to the modular interfaces.
