@@ -34,7 +34,7 @@ in ```CSVFile```. However, those methods should not be exposed in Python as SWIG
    * Make all helper methods protected/private (SWIG ignores them then)
      * This also means that one can use non-Shogun types in them (only forward declared)
 
-Finally: For helper methods that need to be public (called by other classes), one can do
+Finally: For helper methods that need cannot be private (as called by other classes), one can do
 ```
 public:
 #ifndef SWIG //SWIG should ignore this
