@@ -10,7 +10,7 @@ The file is eventually compiled with the C++ compiler and produces the ```modsho
 SWIG also contains a bunch of typemaps: Those are responsible for mapping memory from say a Shogun ```SGVector``` to a ```numpy.ndarray```, etc. All signatures can be used with the target language types. Great!
 
 ## Two public interfaces: SWIG and C++
-In order to avoid the SWIG output to explode, we want to minimise the number of methods being exposed in SWIG. There are two types of public interfaces in Shogun:
+In order to avoid the SWIG output to explode, we want to minimise the number of methods being exposed in SWIG. We thought a lot about how to do this. D-pointers seemed an option at first as they keep the interface clean. However, they don't allow to have two public interfaces, which we realised is exactly what we need -- there are two types of public interfaces in Shogun:
  * Public C++ methods
  * SWIG methods (subset of the above)
 
