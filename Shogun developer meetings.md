@@ -1,5 +1,6 @@
 ## Google Summer of Code 2014
  * [Celebration meeting (September 06, 2014)](GSOC_2014_celebration_meeting)
+ * [Mentor summit discussions](GSoC-2014-results)
 
 ## Stammtisch
  * No logs put yet
