@@ -11,7 +11,7 @@ Welcome to the Shogun wiki!
  * [Development guidelines](Shogun-development-guidelines)
  * [Ideas for the 2015 hack meeting](Roadmap-Shogun-2015-hack)
  * [Brain storm on future of Shogun (2013)](Future-of-Shogun-Brainstorming)
- * [Logs of IRC meetings](Shogun-developer-meetings)
+ * [Dev meetings (IRC and other)](Shogun-developer-meetings)
  * [Roadmaps](Project roadmaps)
 
 ### Credits
