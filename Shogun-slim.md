@@ -8,11 +8,11 @@ This is a rough sketch of things to do to get a more slim and easier maintainabl
   * Drop Serialisation.
    * Drop non-c++ integration tests
      * Clean up Shogun's testing framework
-       * There are currently two sets of integration tests from python (```tester.py``` and ```test_one.py```).
-       * Modular examples should only be executed, algorithms tested within c++
-       * Test SWIG typemaps, only need to test them since algos tested as above
-       * Turn all hand-crafted integration tests into c++ tests (unit or something else), unless we loose test coverage
-          * Add c++ integration testing framework based on googletest
+        * There are currently two sets of integration tests from python (```tester.py``` and ```test_one.py```).
+        * Modular examples should only be executed, algorithms tested within c++
+        * Test SWIG typemaps, only need to test them since algos tested as above
+        * Turn all hand-crafted integration tests into c++ tests (unit or something else), unless we loose test coverage
+           * Add c++ integration testing framework based on googletest
 
 ## Reduce Shogun's build complexity
  * Drop static interfaces
