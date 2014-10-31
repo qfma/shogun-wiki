@@ -15,7 +15,7 @@ Welcome to the Shogun wiki!
  * [Roadmaps](Project roadmaps).
 
 ### Etc.
- * [Shogun and OpenCV](github.com/shogun-toolbox/shogun/blob/develop/doc/OpenCV_docs/OpenCV-integration-examples.md).
+ * [Shogun and OpenCV](http://github.com/shogun-toolbox/shogun/blob/develop/doc/OpenCV_docs/OpenCV-integration-examples.md).
 
 ### Credits
  * [Developer profiles](Developer_profiles).
