@@ -4,7 +4,7 @@ This is a rough sketch of things to do to get a more slim and easier maintainabl
  * Drop Parameter framework
   * Drop Model-selection framework and/or move inside Shogun modules
    * Drop GP-model selection (quite feasible)
-   * Drop SVM model selection, not necessary, see [here](https://github.com/shogun-toolbox/shogun/issues/1251)
+   * Drop Grid-search model selection, not necessary, see [here](https://github.com/shogun-toolbox/shogun/issues/1251)
   * Drop Serialisation.
    * Drop non-c++ integration tests
     * Clean up Shogun's testing framework
