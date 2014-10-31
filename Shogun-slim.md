@@ -5,11 +5,12 @@ This is a rough sketch of things to do to get a more slim and easier maintainabl
    * Drop GP-model selection (quite feasible)
    * Drop SVM model selection, not necessary, see [here](https://github.com/shogun-toolbox/shogun/issues/1251)
   * Drop Serialisation.
-   * Drop integration tests
+   * Drop non-c++ integration tests
     * Clean up Shogun's testing framework
-     * modular examples should only be exectuted, algorithms tested within c++
+     * modular examples should only be executed, algorithms tested within c++
      * Test SWIG typemaps, only need to test them since algos tested as above
      * Turn all hand-crafted integration tests into c++ tests (unit or something else), unless we loose test coverage
+      * Add c++ integration testing framework based on googletest
 
  * Drop static interfaces
   * Make Matlab work from SWIG
