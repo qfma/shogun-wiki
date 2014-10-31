@@ -1,6 +1,6 @@
 This is a rough sketch of things to do to get a more slim and easier maintainable Shogun. Every item has dependencies that need to be done first. Starting from leafs of this tree, we have an action list.
 
-## Reduce Shogun's base class overhead
+## Reduce Shogun's base class overhead. See [here](https://github.com/shogun-toolbox/shogun/issues/2593) for a hitlist
  * Drop Parameter framework
   * Drop Model-selection framework and/or move inside Shogun modules
    * Drop GP-model selection (quite feasible)
