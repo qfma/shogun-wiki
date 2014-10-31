@@ -11,4 +11,7 @@ This is a rough sketch of things to do to get a more slim and easier maintainabl
      * Test SWIG typemaps, only need to test them since algos tested as above
      * Turn all hand-crafted integration tests into c++ tests (unit or something else), unless we loose test coverage
 
+ * Drop static interfaces
+  * Make Matlab work from SWIG
+  * Port all static integration tests to c++
     
