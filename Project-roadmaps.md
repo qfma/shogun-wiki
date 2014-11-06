@@ -4,5 +4,5 @@ This is a list of projects that we are currently working on, along with an outli
  * [A path to a slim Shogun](Shogun-slim)
  * [SWIG is too big](SWIG-issues).
 
-##  New Algorithms
- * [Gaussian Process extensions](Gaussian Process extensions).
+## Documentation
+ * [Developer Documentation & code tutorials using Doxygen](Doxygen_documentation)
