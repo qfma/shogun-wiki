@@ -1,7 +1,8 @@
 We integrated the work of the following people:
 
-(See [below](##Histogram) for number of commits per developer)
+(See below for number of commits per developer)
 
+## Individual contributions
  Alex J. Smola
 	- the pr_loqo optimizer
 
