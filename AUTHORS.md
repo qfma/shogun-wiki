@@ -1,7 +1,7 @@
 # The Shogun Team
 (in no particular ordering, and yet incomplete)
 
-Active members :
+## Active members :
  * Sören Sonnenburg, irc: sonney2k
  * Gunnar Rätsch
  * [Sergey Lisitsyn, irc: lisitsyn](Sergey Lisitsyn)
@@ -13,7 +13,7 @@ Active members :
  * Björn Esser, irc: besser82
  * Thoralf Klein, irc: thoralf
 
-Inactive members:
+## Inactive members:
  * Christian Widmer
  * Shashwat Lal Das
  * Sebastian Henschel
