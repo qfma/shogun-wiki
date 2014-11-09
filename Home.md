@@ -1,7 +1,7 @@
 Welcome to the Shogun wiki!
 
 ### Readmes
-  * [Project description](Project-description).
+  * [Readme](https://github.com/shogun-toolbox/shogun/blob/develop/README.md)
   * [Quickstart](QUICKSTART).
   * [Data](README_data).
   * [Developer](README_developer).
