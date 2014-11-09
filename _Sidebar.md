@@ -16,7 +16,6 @@ Welcome to the Shogun wiki!
  * [Roadmaps](Project roadmaps)
 
 * Credits
- * [Dev profiles](Developer_profiles)
  * [Authors](AUTHORS)
  * [Contributions](CONTRIBUTIONS)
  * [License](LICENSE)
