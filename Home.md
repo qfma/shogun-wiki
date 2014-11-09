@@ -18,8 +18,7 @@ Welcome to the Shogun wiki!
  * [Shogun and OpenCV](http://github.com/shogun-toolbox/shogun/blob/develop/doc/OpenCV_docs/OpenCV-integration-examples.md).
 
 ### Credits
- * [Developer profiles](Developer_profiles).
- * [Authors](AUTHORS).
+ * [Authors & Developer profiles](AUTHORS).
  * [Contributions](CONTRIBUTIONS).
  * [License](LICENSE).
   * [msufsort](LICENSE_msufsort).
