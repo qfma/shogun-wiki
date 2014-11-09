@@ -1,4 +1,4 @@
-# Individual Contributions:
+# Individual Contributions: {#contributions}
 
 ## Histogram
 Let the numbers speak: number of commits per developer, cut-off at 50 (last updated: 9. Nov 2014)

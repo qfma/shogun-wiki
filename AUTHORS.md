@@ -1,4 +1,4 @@
-# The Shogun Team
+# The Shogun Team {#authors}
 (in no particular ordering, and yet incomplete)
 
 ## Active members :
