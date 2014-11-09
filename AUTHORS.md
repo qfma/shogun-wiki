@@ -1,9 +1,19 @@
-* Soeren Sonnenburg <sonne@debian.org>
-* Heiko Strathmann <heiko.strathmann@gmail.com>
-* Sergey Lisitsyn <lisitsyn.s.o@gmail.com>
-* Viktor Gal <vigsterkr@gmail.com>
-* Fernando Iglesias <fernando.iglesiasg@gmail.com>
-* Gunnar Raetsch <Gunnar.Raetsch@tuebingen.mpg.de>
-* Shashwat Lal Das <fraggerx@gmail.com>
-* Sebastian Henschel <shogun@kodeaffe.de>
-* Christian Widmer <cwidmer@tuebingen.mpg.de>
+# The Shogun Team
+(in no particular ordering, and yet incomplete)
+
+Active members :
+ * Sören Sonnenburg, irc: sonney2k
+ * Gunnar Rätsch
+ * [Sergey Lisitsyn, irc: lisitsyn](Sergey Lisitsyn)
+ * [Heiko Strathmann, irc: HeikoS](Heiko Strathmann)
+ * [Fernando J. Iglesias García, irc: iglesiasg](Fernando J. Iglesias García)
+ * [Kevin Hughes, irc: pickle27](Kevin Hughes)
+ * [Rahul De, irc: lambday](Rahul De)
+ * Viktor Gal, irc: wiking
+ * Björn Esser, irc: besser82
+ * Thoralf Klein, irc: thoralf
+
+Inactive members:
+ * Christian Widmer
+ * Shashwat Lal Das
+ * Sebastian Henschel
