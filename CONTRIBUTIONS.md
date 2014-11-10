@@ -1,68 +1,41 @@
-# Individual Contributions: {#contributions}
+Individual Contributions  {#contributions}
+========================
 
 ## Histogram
 Let the numbers speak: number of commits per developer, cut-off at 50 (last updated: 9. Nov 2014)
-```
-git log --format='%aN' | sort | uniq -c | sort -nr
-```
 
-```
-   4325 Soeren Sonnenburg
-   2280 Heiko Strathmann
-   1546 Sergey Lisitsyn
-    690 Viktor Gal
-    560 Sebastian Henschel
-    358 Fernando Iglesias
-    265 iglesias
-    265 Gunnar Raetsch
-    226 Shashwat Lal Das
-    218 Chiyuan Zhang
-    213 Thoralf Klein
-    177 lambday
-    165 Evgeniy Andreev
-    150 Wu Lin
-    141 Jonas Behr
-    134 Baozeng Ding
-    129 Parijat Mazumdar
-    116 Christian Widmer
-     96 Abhijeet
-     85 Fabio De Bona
-     83 puffin444
-     82 Roman Votyakov
-     77 tklein23
-     74 khalednasr
-     69 Kevin
-     57 Alesis Novik
-     56 D. Lehmann
-```
+	$ git log --format='%aN' | sort | uniq -c | sort -nr
+
+	4325 Soeren Sonnenburg
+	2280 Heiko Strathmann
+	1546 Sergey Lisitsyn
+	690 Viktor Gal
+	560 Sebastian Henschel
+	358 Fernando Iglesias
+	265 iglesias
+	265 Gunnar Raetsch
+	226 Shashwat Lal Das
+	218 Chiyuan Zhang
+	213 Thoralf Klein
+	177 lambday
+	165 Evgeniy Andreev
+	150 Wu Lin
+	141 Jonas Behr
+	134 Baozeng Ding
+	129 Parijat Mazumdar
+	116 Christian Widmer
+	 96 Abhijeet
+	 85 Fabio De Bona
+	 83 puffin444
+	 82 Roman Votyakov
+	 77 tklein23
+	 74 khalednasr
+	 69 Kevin
+	 57 Alesis Novik
+	 56 D. Lehmann
 
 ## Google Summer of Code Projects
-We greatly appreciate the support by Google
-
-### 2011
- * Support for new languages [Baozeng Ding]
- * Dimensionality reduction algorithms [Sergey Lisitsyn]
- * Streaming / Online Feature Framework [Shashwat Lal Das]
- * Model selection framework [Heiko Strathmann]
- * Gaussian Mixture Models [Alesis Novik]
-
-### 2012
- * Kernel Hypothesis Testing [Heiko Strathmann]
- * Latent SVM [Viktor Gal]
- * Multitask Learning [Sergey Listsyn]
- * Bundle Methods [Michal Uricar]
- * Multiclass methods [Chiyuan Zhang]
- * Gaussian Process regression [Jacob Walker]
- * Structured Output Framework [Fernando Iglesias]
-
-### 2013
- * Gaussian Processes for binary classification [Roman Votjakov]
- * Sampling log-determinants for large sparse matrices [Soumyajit De]
- * Metric Learning via LMNN [Fernando Iglesias]
- * Independent Component Analysis (ICA) [Kevin Hughes]
- * Hashing Feature Framework [Evangelos Anagnostopoulos]
- * Structured Output Learning [Hu Shell]
- * A web-demo framework [Liu Zhengyang]
+We greatly appreciate the support by Google and the hard work of our students and mentors!
 
 ### 2014
  * OpenCV Integration and Computer Vision Applications [Abhijeet Kislay; Kevin Hughes]
@@ -73,6 +46,31 @@ We greatly appreciate the support by Google
  * Shogun Missionary & Shogun in Education [Saurabh Mahindre; Heiko Strathmann]
  * Testing and Measuring Variable Interactions With Kernels [Soumyajit De; Dino Sejdinovic, Heiko Strathmann]
  * Variational Learning for Gaussian Processes [Wu Lin; Heiko Strathmann, Emtiyaz Khan]
+
+### 2013
+ * Gaussian Processes for binary classification [Roman Votjakov]
+ * Sampling log-determinants for large sparse matrices [Soumyajit De]
+ * Metric Learning via LMNN [Fernando Iglesias]
+ * Independent Component Analysis (ICA) [Kevin Hughes]
+ * Hashing Feature Framework [Evangelos Anagnostopoulos]
+ * Structured Output Learning [Hu Shell]
+ * A web-demo framework [Liu Zhengyang]
+
+### 2012
+ * Kernel Hypothesis Testing [Heiko Strathmann]
+ * Latent SVM [Viktor Gal]
+ * Multitask Learning [Sergey Listsyn]
+ * Bundle Methods [Michal Uricar]
+ * Multiclass methods [Chiyuan Zhang]
+ * Gaussian Process regression [Jacob Walker]
+ * Structured Output Framework [Fernando Iglesias]
+
+### 2011
+ * Support for new languages [Baozeng Ding]
+ * Dimensionality reduction algorithms [Sergey Lisitsyn]
+ * Streaming / Online Feature Framework [Shashwat Lal Das]
+ * Model selection framework [Heiko Strathmann]
+ * Gaussian Mixture Models [Alesis Novik]
 
 ## Individual contributions
 Alex J. Smola
