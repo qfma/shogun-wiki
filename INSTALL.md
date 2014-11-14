@@ -25,7 +25,7 @@ just remove the `build` directory you created before.
 If you prefer to not run the `make install` command, you should
 instead include the shogun library in your path:
 
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:path_to_shogun/src/shogun/
+`export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:path_to_shogun/src/shogun/`
 
 Often you are just interested in one language and we always recommend to
 use the more powerful modular interfaces.
