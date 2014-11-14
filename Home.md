@@ -2,10 +2,11 @@ Welcome to the Shogun wiki!
 
 ### Readmes
   * [Readme](https://github.com/shogun-toolbox/shogun/blob/develop/README.md)
-  * [Quickstart](QUICKSTART).
-  * [Data](README_data).
-  * [Developer](README_developer).
-  * [CMake (build process)](README_cmake).
+  * [Installation](INSTALL)
+  * [Quickstart](QUICKSTART)
+  * [Data](README_data)
+  * [Developer](README_developer)
+  * [CMake (build process)](README_cmake)
 
 ### Documents
  * [Development guidelines](Shogun-development-guidelines).
