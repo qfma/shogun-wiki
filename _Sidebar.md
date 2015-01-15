@@ -8,6 +8,7 @@ Welcome to the Shogun wiki!
   * [Data](README_data)
   * [Developer](README_developer)
   * [CMake (build process)](README_cmake)
+  * [Internal Linear Algebra Library](README_linalg)
 
 * Documents
  * [Dev guidelines](Shogun-development-guidelines)
