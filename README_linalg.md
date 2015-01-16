@@ -17,9 +17,11 @@ Shogun's **internal linear algebra library** (will be referred as `linalg` herei
 - handle native Shogun types for linear algebra operations without having to convert to external types,
 - have the backend set for each operations at compile-time (for lesser runtime overhead) and therefore intended to be used internally by Shogun developers.
 
-### Using `linalg` operations
+### For Shogun developers
+----
+#### Using `linalg` operations
 The operations can be used in two ways:
-#### Relying on globally set `linalg` backend
+##### Relying on globally set `linalg` backend
 - Global setup is used whenever an operation **does not specify a particular backend**.
 ```c++
 shogun::linalg::operation(arg1, ...);
@@ -47,8 +49,69 @@ cmake -DUSE_EIGEN3_REDUX -DUSE_VIENNACL_CORE
 # and Default for the rest of the modules
 cmake -DUSE_VIENNACL_REDUX
 ```
-#### Using operation specific `linalg` backend
+##### Using operation specific `linalg` backend
+- It is possible to use a **specific backend for a particular operation**, if desired, which then ignores the global or module specific setup and works with that particular backend. The backend can be specified using the `enum Backend`.
 ```c++
 shogun::linalg::operation<Backend::backend_name>(arg1, ...);
 ```
-- It is possible to use a specific backend for some particular operation, which then ignores the global or module specific setup and works with that particular backend.
+- Currently supported backends are `EIGEN3`, `VIENNACL`, `NATIVE`.
+
+**[The recommended practice for using `linalg` is to include just the file `linalg.h` (in `src/shogun/mathematics/linalg`) in the implementation of a Shogun algorithm (`.cpp` file). Please do not include this file in the `.h` file of an algorithm that is expected to be exposed to the modular API (exposed to SWIG). See [CustomKernel.cpp](https://github.com/shogun-toolbox/shogun/blob/develop/src/shogun/kernel/CustomKernel.cpp#L274) for an example.]**
+
+### For `linalg` developers
+----
+The structure of `linalg` consists of three basic components
+- backend identifier and module type specifier (in `linalg.h`)
+- the operations exposed as global functions (in `linalg/internal/modules/`)
+- the backend specific implementations (in `linalg/internal/implementation/`)
+
+#### Understanding the backend setups
+`enum class Backend` handles the backend identification in the operations. The `DEFAULT` backend would be the first constant defined. For example, if `cmake` finds all supported backends, the enum is defined as
+```c++
+// inside shogun::linalg namespace
+enum class Backend
+{
+    EIGEN3, // will be 0
+    VIENNACL, // will be 1
+    NATIVE, // will be 2
+    DEFAULT = 0 // therefore, will be EIGEN3
+};
+```
+If only ViennaCL is found,
+```c++
+enum class Backend
+{
+    VIENNACL, // will be 0
+    NATIVE, // will be 1
+    DEFAULT = 0 // therefore, will be VIENNACL
+};
+```
+If none of the supported backend libraries is found
+```c++
+enum class Backend
+{
+    NATIVE, // will be 0
+    DEFAULT = 0 // therefore, will be NATIVE
+};
+```
+`NATIVE` refers to Shogun's implementation which only provides a few operations. The operations specified with `NATIVE` backends work even in absence of any external linear algebra libraries. Therefore, while using the global backend, it is always safe to use those operations with a native implementation.
+
+**The default backend is `Eigen3` (if found).**
+
+#### Understanding the module setups
+As mentioned earlier, the supported operations are clustered into different modules in order to provide module specific setup is desired. These modules are defined as structs with the backend information, e.g
+```c++
+template <enum Backend>
+struct ModuleName
+{
+    // assuming that Eigen3 was set as the backend of this module
+    const static Backend backend = Backend::EIGEN3;
+};
+```
+In generic code, the backend set for a module can be inquired with `linalg_trait<ModuleName>::backend`.
+
+#### Understanding the global operations
+Coming soon.
+
+#### Understanding the backend specific implementation
+Coming soon.
