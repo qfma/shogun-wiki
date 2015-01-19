@@ -1,6 +1,6 @@
 # Internal linear algebra library
 
-Contents
+**Table of Contents**
 - [Motivation](README_linalg#motivation)
 - [Features of internal linear algebra library](README_linalg#features-of-internal-linear-algebra-library)
     * [For Shogun developers](README_linalg#for-shogun-developers)
