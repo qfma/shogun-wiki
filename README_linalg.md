@@ -1,4 +1,18 @@
 # Internal linear algebra library
+
+Contents
+- [Motivation](README_linalg#motivation)
+- [Features of internal linear algebra library](README_linalg#features-of-internal-linear-algebra-library)
+    * [For Shogun developers](README_linalg#for-shogun-developers)
+        * [Using `linalg` operations](README_linalg#using-linalg-operations)
+            * [Relying on globally set `linalg` backend](README_linalg#relying-on-globally-set-linalg-backend)
+            * [Using operation specific `linalg` backend](README_linalg#using-operation-specific-linalg-backend)
+    * [For `linalg` developers](README_linalg#for-linalg-developers)
+        * [Understanding the backend setups](README_linalg#understanding-the-backend-setups)
+        * [Understanding the module setups](README_linalg#understanding-the-module-setups)
+        * [Understanding the global operations](README_linalg#understanding-the-global-operations)
+        * [Understanding the backend specific implementation](README_linalg#understanding-the-backend-specific-implementation)
+
 ## Motivation
 Linear algebra operations form the backbone for most of the computation components in any Machine Learning library. However, writing all of the required linear algebra operations from scratch is rather redundant and undesired, especially when we have some excellent open source alternatives. In Shogun, we prefer 
 - [`Eigen3`](http://eigen.tuxfamily.org/index.php?title=Main_Page) for its speed and simplicity at the usage level,
