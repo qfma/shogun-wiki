@@ -24,9 +24,7 @@ The simplest libshogun based program would be
         return 0;
     }
 
-which could be compiled with g++ -lshogun minimal.cpp -o minimal and obviously
-does nothing (apart form initializing and destroying a couple of global shogun
-objects internally).
+which could be compiled with g++ -lshogun minimal.cpp -o minimal or g++ minimal.cpp -lshogun -o minimal (if the former command does not work, you might need to do sudo ldconfig to configure dynamic linker run-time bindings after the first time installation) and obviously does nothing (apart form initializing and destroying a couple ofglobal shogun objects internally).
 
 In case one wants to redirect shoguns output functions SG_DEBUG, SG_INFO,
 SG_WARN, SG_ERROR, SG_PRINT etc, one has to pass them to init_shogun() as
@@ -201,8 +199,7 @@ repository in github.
 
     What rebasing does is, in short, "Forward-port local commits to the updated
     upstream head". A longer and more detailed illustration with nice figures
-    can be found at http://book.git-scm.com/4_rebasing.html. So rebasing (instead
-    of merging) makes the main "commit-thread" of the repo a simple series.
+    can be found at http://git-scm.com/book/en/v2/Git-Branching-Rebasing. So rebasing (instead of merging) makes the main "commit-thread" of the repo a simple series.
 
     Rebasing before issuing a pull request also enable us to find and fix any
     potential conflicts early at the developer side (instead of at the one who
