@@ -24,7 +24,7 @@ The simplest libshogun based program would be
         return 0;
     }
 
-which could be compiled with g++ -lshogun minimal.cpp -o minimal or g++ minimal.cpp -lshogun -o minimal (if the former command does not work, you might need to do sudo ldconfig to configure dynamic linker run-time bindings after the first time installation) and obviously does nothing (apart form initializing and destroying a couple ofglobal shogun objects internally).
+which could be compiled with g++ -lshogun minimal.cpp -o minimal or g++ minimal.cpp -lshogun -o minimal (if the former command does not work, you might need to run `ldconfig` to configure dynamic linker run-time bindings after the first time installation) and obviously does nothing (apart form initializing and destroying a couple ofglobal shogun objects internally).
 
 In case one wants to redirect shoguns output functions SG_DEBUG, SG_INFO,
 SG_WARN, SG_ERROR, SG_PRINT etc, one has to pass them to init_shogun() as
