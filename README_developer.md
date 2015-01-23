@@ -5,7 +5,7 @@ Shogun is split up into libshogun which contains all the machine learning
 algorithms and 'static interfaces' helpers,
 the static interfaces python_static, octave_static, matlab_static, r_static and
 the modular interfaces python_modular, octave_modular and r_modular (all found
-in the src/interfaces/ subdirectory with corresponding name). See src/INSTALL on
+in the src/interfaces/ subdirectory with corresponding name). See [INSTALL.md](https://github.com/shogun-toolbox/shogun/blob/develop/doc/md/INSTALL.md)) on
 how to install shogun.
 
 In case one wants to extend shogun the best way is to start using its library.
