@@ -17,6 +17,9 @@ Welcome to the Shogun wiki!
  * [Dev meetings](Shogun-developer-meetings)
  * [Roadmaps](Project roadmaps)
 
+* GSoC
+  * [2015](GSoC_2015)
+
 * Credits
  * [Authors](AUTHORS)
  * [Contributions](CONTRIBUTIONS)
