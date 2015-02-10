@@ -18,7 +18,7 @@ Welcome to the Shogun wiki!
  * [Roadmaps](Project roadmaps)
 
 * GSoC
-  * [2015](GSoC_2015)
+  * [2015](GSoC-2015)
 
 * Credits
  * [Authors](AUTHORS)
