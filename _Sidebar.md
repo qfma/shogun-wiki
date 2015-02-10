@@ -11,7 +11,6 @@ Welcome to the Shogun wiki!
   * [Internal Linear Algebra Library](README_linalg)
 
 * Documents
- * [Getting involved](Getting-involved)
  * [Dev guidelines](Shogun-development-guidelines)
  * [2015 hack ideas](Roadmap-Shogun-2015-hack)
  * [Brain storm Future Shogun (2013)](Future-of-Shogun-Brainstorming)
