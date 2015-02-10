@@ -19,7 +19,7 @@ Welcome to the Shogun wiki!
 ### Google Summer of Code
  * [Getting involved](Getting-involved)
  * [Follow up blog posts](GSoC-follow-up-blog-posts)
- * [2015](GSoC-2015)
+ * [2015](Google-Summer-of-Code-2015-projects)
 
 ### Etc.
  * [Shogun and OpenCV](http://github.com/shogun-toolbox/shogun/blob/develop/doc/OpenCV_docs/OpenCV-integration-examples.md).
