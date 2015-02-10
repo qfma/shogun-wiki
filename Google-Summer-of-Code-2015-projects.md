@@ -1,9 +1,9 @@
 # A (yet incomplete and to be polished) list of potential GSoC 2015 projects.
+Please create a new wiki page for each project that you describe (to keep this page small). Name them as "GSoC_2014_project_MCMC" etc.
 
 ## Ideas to port from last year's list:
-
+ * [MCMC](GSoC_2014_project_MCMC)
  * LP/QP optimisation framework.
- * MCMC.
  * Native Windows port.
 
 ## New ideas for which we need descriptions:
