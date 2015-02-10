@@ -1,0 +1,1 @@
+A (yet incomplete and to be polished) list of potential GSoC 2015 projects.
