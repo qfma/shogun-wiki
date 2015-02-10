@@ -17,6 +17,7 @@ Welcome to the Shogun wiki!
  * [Roadmaps](Project roadmaps).
 
 ### Google Summer of Code
+ * [Follow up blog posts](GSoC-follow-up-blog-posts)
  * [2015](GSoC-2015)
 
 ### Etc.
