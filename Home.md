@@ -17,7 +17,7 @@ Welcome to the Shogun wiki!
  * [Roadmaps](Project roadmaps).
 
 ### Google Summer of Code
- * [2015](GSoC_2015)
+ * [2015](GSoC-2015)
 
 ### Etc.
  * [Shogun and OpenCV](http://github.com/shogun-toolbox/shogun/blob/develop/doc/OpenCV_docs/OpenCV-integration-examples.md).
