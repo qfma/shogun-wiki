@@ -2,7 +2,7 @@
 Please create a new wiki page for each project that you describe (to keep this page small). Name them as "GSoC_2014_project_MCMC" etc.
 
 ## Ideas to port from last year's list:
- * [MCMC](GSoC_2014_project_Stan)
+ * [MCMC & Stan](GSoC_2014_project_MCMC_Stan)
  * LP/QP optimisation framework.
  * Native Windows port.
 
