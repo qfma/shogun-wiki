@@ -29,3 +29,4 @@ Deep learning is *everywhere*
 
 - https://github.com/shogun-toolbox/shogun/issues/2700 
 - https://github.com/shogun-toolbox/shogun/issues/2699
+- https://github.com/shogun-toolbox/shogun/issues/2701
