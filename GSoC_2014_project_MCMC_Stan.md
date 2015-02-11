@@ -1,7 +1,7 @@
 # Enabling MCMC based inference via Stan
 
 ### Mentors
- * Fernando (github: [iglesias](https://github.com/iglesias), IRC: iglesias)
+ * Fernando (github: [iglesias](https://github.com/iglesias), IRC: iglesiasg)
  * Heiko (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
 
 ### Difficulty & Requirements
