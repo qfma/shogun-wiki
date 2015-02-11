@@ -1,5 +1,5 @@
 # A (yet incomplete and to be polished) list of potential GSoC 2015 projects.
-Please create a new wiki page for each project that you describe (to keep this page small). Name them as "GSoC_2014_project_MCMC" etc.
+Please create a new wiki page for each project that you describe (to keep this page small). Name them as "GSoC_2014_project_MCMC" etc. Here is a [template](GSoC_2014_project_template)
 
 # Main focus
 This year's GSoC is about improving Shogun, rather than extending it. Exceptions allowed.
