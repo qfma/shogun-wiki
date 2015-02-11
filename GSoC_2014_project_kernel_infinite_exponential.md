@@ -32,6 +32,7 @@ Parts of the project that would be cool once the core is finished.
 ### Why this is cool
 Motivation to get involved here.
 
+### Useful ressources
  * [Infinite exponential family paper](http://arxiv.org/abs/1312.3516)
  * [Score matching paper](http://www.cs.helsinki.fi/u/ahyvarin/papers/JMLR05.pdf)
  * Kernel density estimation [notebook](http://www.shogun-toolbox.org/static/notebook/current/KernelDensity.html) and [wikipedia](http://en.wikipedia.org/wiki/Kernel_density_estimation)
