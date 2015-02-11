@@ -33,7 +33,7 @@ The projects we would like to limit in numbers.
 
 ## New ideas for which we need descriptions:
  * [Unifying Shogun's linear algebra](GSoC_2015_project_linalg)
- * Deep learning 2?
+ * [Deep learning](GSoC_2015_project_deep_learning)
  * [Fundamental ML algorithms 2](GSoC_2015_project_fundamental)
 
 ## Other ideas:
