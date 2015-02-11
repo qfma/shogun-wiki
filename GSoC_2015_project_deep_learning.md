@@ -24,3 +24,8 @@ Pretty difficult. Requires:
 Deep learning is *everywhere* 
 
 ### Useful resources
+
+### Entrance level tasks
+
+- https://github.com/shogun-toolbox/shogun/issues/2700 
+- https://github.com/shogun-toolbox/shogun/issues/2699
