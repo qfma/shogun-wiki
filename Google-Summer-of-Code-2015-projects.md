@@ -19,6 +19,7 @@ This year's GSoC is about improving Shogun, rather than extending it. Exceptions
 # Finished descriptions
 
 ## New things:
+The projects we would like to limit in numbers.
 ### Framework extensions
  * [MCMC & Stan](GSoC_2014_project_MCMC_Stan)
 
