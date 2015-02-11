@@ -27,6 +27,8 @@ As models in Shogun are fixed, one way to combine them with Stan would be to imp
  * The Shogun build has to be modified to "compile" the Stan code, which then interacts with Shogun
 
 ### Waypoints and initial work
+One of the first steps would be to try to expose Stan's distributions (sampling, log-pdf & gradients) within Shogun, see also the [github issues](https://github.com/shogun-toolbox/shogun/issues?q=is%3Aissue+is%3Aopen+stan) on that topic. From there, stepping to full Stan models is the next step.
+
  * Write a wraper class that exposes a given C++ Stan model within Shogun's framework. This also is great for the Stan people as their models will be usable from all of Shogun's modular targets. It includes data IO.
  * Implement a single Shogun model (say GP regression) in Stan and make sure the semantics are the same. Use above point to expose it
  * Design a Shogun class framework that allows to easily interact with Stan's MCMC mechanics, so that the above wrapper classes can be used to use MCMC for inference
