@@ -1,17 +1,22 @@
-# Project title
+# Density Estimation in Infinite Dimensional Exponential Families
+
+(I know it sounds ridiculously complicated, but it *is* quite cool!)
 
 ### Mentors
  * Heiko (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
 
 ### Difficulty & Requirements
-Easy/medium/advanced.
-You need to be able to
- * get confused by C/C++
- * trim beards
- * count socks
+Medium.
+The mathematics behind this are very interesting, though not absolutely necessary to implement the algorithms, which are quite simple.
+
+You need knowledge of:
+ * Kernel methods in general
+ * Density estimation basics
+ * Basic (math+numerical) linear algebra. In particular linear systems
+ * Come C++ knowledge, including designing class hierarchies
 
 ### Description
-High level description/abstract
+This project is about implementing a new form of density estimation
 
 ### Details
 Write about details of the project here.
@@ -28,4 +33,4 @@ Parts of the project that would be cool once the core is finished.
 Motivation to get involved here.
 
 ### Useful ressources
- * Put useful links here
+ * [Infinite exponential family paper](http://arxiv.org/abs/1312.3516)
