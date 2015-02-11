@@ -1,7 +1,7 @@
 # Deep learning
 
 ### Mentors
- * Theofanis Karaletsos ([last name] at cbio.mskcc.org)
+ * Theofanis Karaletsos
  * Sergey (github: [lisitsyn](https://github.com/lisitsyn), IRC: lisitsyn)
 
 ### Difficulty & Requirements
