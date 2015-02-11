@@ -26,3 +26,6 @@ Parts of the project that would be cool once the core is finished.
 
 ### Why this is cool
 Motivation to get involved here.
+
+### Useful ressources
+ * Put a list of ressources/links here
