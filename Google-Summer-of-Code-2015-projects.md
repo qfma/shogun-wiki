@@ -1,8 +1,32 @@
 # A (yet incomplete and to be polished) list of potential GSoC 2015 projects.
 Please create a new wiki page for each project that you describe (to keep this page small). Name them as "GSoC_2014_project_MCMC" etc.
 
-## Ideas to port from last year's list:
+# Main focus
+This year's GSoC is about improving Shogun, rather than extending it. Exceptions allowed.
+
+ * *Fewer* new algorithms. Rather improve existing ones: Usability, efficiency, documentation, application
+ * *Fewer* students. More intense: mentoring, interaction between students, blogging, documenting
+ * Projects on
+   * Clean ups of: framework, build process, algorithms, usability, documentation
+   * Removing legacy code
+   * Efficiency: High performance computing, parallelisation, cloud, benchmarking
+   * Applications: Using Machine Learning as a tool to improve the world, rather than toy examples
+   * Pipelines & Framework: Improve usability on standard workflow pipelines
+   * Usablity: Building and Installing Shogun has to be easier
+
+
+
+# Finished descriptions
+
+## New things:
+### Framework extensions
  * [MCMC & Stan](GSoC_2014_project_MCMC_Stan)
+
+### New Algorithms
+ * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2014_project_kernel_infinite_exponential)
+
+# TODO list
+## Ideas to port from last year's list:
  * LP/QP optimisation framework.
  * Native Windows port.
 
