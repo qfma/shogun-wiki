@@ -1,5 +1,5 @@
 # A (yet incomplete and to be polished) list of potential GSoC 2015 projects.
-Please create a new wiki page for each project that you describe (to keep this page small). Name them as "GSoC_2014_project_MCMC" etc. Here is a [template](GSoC_2014_project_template)
+Please create a new wiki page for each project that you describe (to keep this page small). Name them as "GSoC_2015_project_MCMC" etc. Here is a [template](GSoC_2015_project_template)
 
 # Main focus
 This year's GSoC is about improving Shogun, rather than extending it. Exceptions allowed.
@@ -21,10 +21,10 @@ This year's GSoC is about improving Shogun, rather than extending it. Exceptions
 ## New things:
 The projects we would like to limit in numbers.
 ### Framework extensions
- * [MCMC & Stan](GSoC_2014_project_MCMC_Stan)
+ * [MCMC & Stan](GSoC_2015_project_MCMC_Stan)
 
 ### New Algorithms
- * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2014_project_kernel_infinite_exponential)
+ * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2015_project_kernel_infinite_exponential)
 
 # TODO list
 ## Ideas to port from last year's list:
@@ -32,9 +32,9 @@ The projects we would like to limit in numbers.
  * Native Windows port.
 
 ## New ideas for which we need descriptions:
- * [Unifying Shogun's linear algebra](GSoC_2014_project_linalg)
+ * [Unifying Shogun's linear algebra](GSoC_2015_project_linalg)
  * Deep learning 2?
- * Fundamental ML algorithms 2? (such as?).
+ * [Fundamental ML algorithms 2](GSoC_2015_project_fundamental)
 
 ## Other ideas:
  * Cool pipelines
