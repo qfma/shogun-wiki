@@ -36,7 +36,7 @@ Rahul, this is for you
  * ...
 
 ### Optional
-TODO
+Rahul, maybe do an openmp backend for the independent jobs? Not sure here though. What do you think?
 
 ### Why this is cool
 This project will massively increase both performance and sustainability of Shogun. We will get parallelisation of many algorithms for free and at the same time open up ways for using different, better, backends (such as GPUs) in the future. It will furthermore allow to write algorithms without knowledge of backend internals. Nobody wants to deal with Lapack directly ;)
