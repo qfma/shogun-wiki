@@ -16,7 +16,7 @@ You need to be able to
 ### Description
 Models: State space dynamics are linear Gaussian
 Observation links might be Gaussian but can also be non-linear.
-Both learning closedand inference.
+Both learning and inference.
 
 Models:
  * LGSSM
