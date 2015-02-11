@@ -11,7 +11,7 @@ Extremely advanced. Please only consider applying to this project if you have se
  * Building C++ code and modifying builds
  * MCMC and Bayesian modelling mainly to structure and write documentation
  * Documentation skills
- * Shogun's probabilistic models
+ * Shogun's probabilistic models, in particular the Gaussian Processes
  * Optional: Automatic differentiation in Stan
  * Optional: SWIG
 
