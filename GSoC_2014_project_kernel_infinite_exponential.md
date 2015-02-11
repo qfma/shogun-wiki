@@ -1,17 +1,22 @@
-# Project title
+# Density Estimation in Infinite Dimensional Exponential Families
+
+(I know it sounds ridiculously complicated, but it *is* quite cool!)
 
 ### Mentors
  * Heiko (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
 
 ### Difficulty & Requirements
-Easy/medium/advanced.
-You need to be able to
- * get confused by C/C++
- * trim beards
- * count socks
+Medium.
+The mathematics behind this are very interesting, though not absolutely necessary to implement the algorithms, which are quite simple.
+
+You need knowledge of:
+ * Kernel methods in general
+ * Density estimation basics
+ * Basic (math+numerical) linear algebra. In particular linear systems
+ * Come C++ knowledge, including designing class hierarchies
 
 ### Description
-High level description/abstract
+This project is about implementing a new form of non-parametric density estimation, from [this paper](http://arxiv.org/abs/1312.3516). The idea is to learn the parameters of an un-normalised exponential family model whose parameters are elements of Reproducing Kernel Hilbert Spaces (RKHS). The estimation technique is based on [score-matching](http://www.cs.helsinki.fi/u/ahyvarin/papers/JMLR05.pdf), which is an estimation method that is based on matching gradients of the true and estimated model. The technique works better than the standard kernel density estimator, in particular in high dimensions.
 
 ### Details
 Write about details of the project here.
@@ -27,5 +32,6 @@ Parts of the project that would be cool once the core is finished.
 ### Why this is cool
 Motivation to get involved here.
 
-### Useful ressources
- * Put useful links here
+ * [Infinite exponential family paper](http://arxiv.org/abs/1312.3516)
+ * [Score matching paper](http://www.cs.helsinki.fi/u/ahyvarin/papers/JMLR05.pdf)
+ * Kernel density estimation [notebook](http://www.shogun-toolbox.org/static/notebook/current/KernelDensity.html) and [wikipedia](http://en.wikipedia.org/wiki/Kernel_density_estimation)
