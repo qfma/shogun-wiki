@@ -32,7 +32,7 @@ The projects we would like to limit in numbers.
  * Native Windows port.
 
 ## New ideas for which we need descriptions:
- * Linalg framework.
+ * [Unifying Shogun's linear algebra](GSoC_2014_project_linalg)
  * Deep learning 2?
  * Fundamental ML algorithms 2? (such as?).
 
