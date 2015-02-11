@@ -6,8 +6,7 @@
  * Heiko (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
 
 ### Difficulty & Requirements
-Advanced.
-You will need knowledge about:
+Extremely advanced. Please only consider applying to this project if you have serious knowledge on:
  * Stan itself, how to use it, basics about its internals
  * Building C++ code and modifying builds
  * MCMC and Bayesian modelling mainly to structure and write documentation
