@@ -5,13 +5,16 @@ Linear Latent Gaussian Models: Linear and non-linear
 ### Mentors
  * Fernando (github: [iglesias](https://github.com/iglesias), IRC: iglesias)
  * Heiko (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
+ * Lars ?
 
 ### Difficulty & Requirements
 Easy/medium/advanced.
-You need to be able to
- * get confused by C/C++
- * trim beards
- * count socks
+You need:
+ * C++ coding
+ * Gaussians
+ * Kalman filter
+ * EM algorithm
+ * Variational & EP approximations
 
 ### Description
 Models: State space dynamics are linear Gaussian
