@@ -34,3 +34,4 @@ Deep learning is *everywhere*
 - [~~Add leaky ReLU neural layer~~](https://github.com/shogun-toolbox/shogun/issues/2699)
 - [Reproduce "Text understanding from scratch" neural model with a notebook](https://github.com/shogun-toolbox/shogun/issues/2701)
 - [Support DotFeatures in neural networks](https://github.com/shogun-toolbox/shogun/issues/2709)
+- [Add preprocessor layer for neural network](https://github.com/shogun-toolbox/shogun/issues/2710)
