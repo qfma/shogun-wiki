@@ -27,6 +27,7 @@ Deep learning is *everywhere*
 
 ### Entrance level tasks
 
-- https://github.com/shogun-toolbox/shogun/issues/2700 
-- https://github.com/shogun-toolbox/shogun/issues/2699
-- https://github.com/shogun-toolbox/shogun/issues/2701
+- [Implement new initializations for neural nets as per MSR paper](https://github.com/shogun-toolbox/shogun/issues/2700)
+- [~~Add leaky ReLU neural layer~~](https://github.com/shogun-toolbox/shogun/issues/2699)
+- [Reproduce "Text understanding from scratch" neural model with a notebook](https://github.com/shogun-toolbox/shogun/issues/2701)
+- [Support DotFeatures in neural networks](https://github.com/shogun-toolbox/shogun/issues/2709)
