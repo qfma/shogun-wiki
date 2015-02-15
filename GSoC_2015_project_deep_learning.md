@@ -25,6 +25,9 @@ Deep learning is *everywhere*
 
 ### Useful resources
 
+- "Neural Networks for Machine Learning" by Geoffrey Hinton (https://www.coursera.org/course/neuralnets) 
+- "Deep learning" by Yoshua Bengio, Ian Goodfellow and Aaron Courville (http://www.iro.umontreal.ca/~bengioy/dlbook/) 
+
 ### Entrance level tasks
 
 - [Implement new initializations for neural nets as per MSR paper](https://github.com/shogun-toolbox/shogun/issues/2700)
