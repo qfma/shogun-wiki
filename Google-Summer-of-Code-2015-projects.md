@@ -16,17 +16,13 @@ This year's GSoC is about improving Shogun, rather than extending it. Exceptions
 
 
 # Finished descriptions
+ * [HMMs for biological data](GSoC_2015_project_hmms)
 
 ## New things:
 The projects we would like to limit in numbers.
-### Framework extensions
  * [MCMC & Stan](GSoC_2015_project_MCMC_Stan)
-
-### New Algorithms
  * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2015_project_kernel_infinite_exponential)
 
-## Clean ups and/or applications
- * [HMMs for biological data](GSoC_2015_project_hmms)
 
 # TODO list
 ## Ideas to port from last year's list:
