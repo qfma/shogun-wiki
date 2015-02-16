@@ -25,6 +25,9 @@ The projects we would like to limit in numbers.
 ### New Algorithms
  * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2015_project_kernel_infinite_exponential)
 
+### Clean ups and/or applications
+ * [HMMs for biological data](GSoC_2015_project_hmms)
+
 # TODO list
 ## Ideas to port from last year's list:
  * LP/QP optimisation framework.
@@ -33,7 +36,8 @@ The projects we would like to limit in numbers.
 ## New ideas for which we need descriptions:
  * [Unifying Shogun's linear algebra](GSoC_2015_project_linalg)
  * [Deep learning](GSoC_2015_project_deep_learning)
- * [Fundamental ML algorithms 2](GSoC_2015_project_fundamental)
+ * [Fundamental ML: LGSSMs](GSoC_2015_project_fundamental)
+ * [HMMs for biological data](GSoC_2015_project_hmms)
 
 ## Other ideas:
  * Cool pipelines
