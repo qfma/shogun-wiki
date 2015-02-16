@@ -8,7 +8,8 @@ Cleaning up Shogun's HMMS and implementing a gene imputation pipeline
 ### Difficulty & Requirements
 **Medium/Advanced**. You need to be able to:
  - Cleanup and optimize C/C++ code
- - Have a good understanding of HMMs  (Knowledge of MCMC is helpful)
+ - Have a good understanding of HMMs
+ - Knowledge of MCMC is helpful
  - Have a basic understanding of genotyping and GWAS analysis
  - Visualize imputation results in an iPython notebook
 
