@@ -1,7 +1,9 @@
-# Project title
+# Hidden Markov Models for biological data
+Cleaning up Shogun's HMMS and implementing a gene imputation pipeline
 
 ### Mentors
- * Heiko (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
+ * [Fabian Zimmer](http://qfma.de/) (github: [qfma](https://github.com/qfma))
+ * [Heiko](http://herrstrathmann.de/) (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
 
 ### Difficulty & Requirements
 Easy/medium/advanced.
