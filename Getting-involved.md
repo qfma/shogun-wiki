@@ -8,6 +8,9 @@ If you are looking for the project ideas, you will find them [here](Google Summe
 
 Then GSoC is a great program and lots of fun. You can read some blog posts about our past participation [here](GSoC_follow_ups)
 
+## Female students
+Without exception, currently all Shogun developers are male. We would like to change this - to create a nicer atmosphere and to [work more effectively](http://www.nytimes.com/2015/01/18/opinion/sunday/why-some-teams-are-smarter-than-others.html?_r=0). In order to achieve a more balanced gender distribution in GSoC, **we are in particular looking for female students to apply to us**.
+
 ## Applicability - “Am I good enough to do this?”
 If your answer to this question is “YES!”, then you are the right person ;) The main skill that we are looking for is motivation - we greatly appreciate people who take initiative, come up with creative ideas and are self-organised in making them happen (with our guidance of course). Since Shogun is about ML, most projects are technically involved in some sense: probability distributions, linear algebra, optimization, as well as object-oriented programing, compilers, and git should be things that do not scare you (not too much at least ;) ). However, we do not require you to be a master in the topics that the projects are about, GSoC is also about enjoying learning new things and all of us started from zero.
 
