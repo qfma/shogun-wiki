@@ -25,7 +25,7 @@ The projects we would like to limit in numbers.
 ### New Algorithms
  * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2015_project_kernel_infinite_exponential)
 
-### Clean ups and/or applications
+## Clean ups and/or applications
  * [HMMs for biological data](GSoC_2015_project_hmms)
 
 # TODO list
