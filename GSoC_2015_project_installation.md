@@ -2,30 +2,39 @@
 
 ### Mentors
  * Heiko (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
+ * Sergey (github: [lisitsyn](https://github.com/lisitsyn), IRC: lisitsyn)
 
 ### Difficulty & Requirements
-Easy/medium/advanced.
-You need to be able to
- * get confused by C/C++
- * trim beards
- * count socks
+
+Rather easy but massive and needs scrutinizing some questions.
+It suits you best if you:
+
+* Are not afraid of Mac OS X, Linux and Windows
+* Know essentials of building tools like CMake and Makefile
+* Are ok with patching some C++ code
+* Feel like real devops guy or a [duct tape programmer](http://www.joelonsoftware.com/items/2009/09/23.html)
 
 ### Description
-High level description/abstract
+
+We have to admit that sometimes Shogun is not really user-friendly. Users are going through some troubles even on quite major platforms which we should support better. We want to solve that and this project is the first step towards more smooth user experience that starts from the installation of Shogun on your favourite platform. The main goal of this project is to let users install Shogun on all major platforms in just a few clicks.
 
 ### Details
-Write about details of the project here.
+
+This project is a massive initiative to finally make Shogun really easy to try on all major platforms. First of all, we want to have an infrastructure to have a daily build of Shogun for Debian based platforms. The next thing to cover is .rpm packages which would make it easy to use Shogun on distributions like Fedora and RHEL. The most important part comes next - native build and installation on Windows. In the last part of the project we expect to see an easy way to install Shogun on Mac OS X using Homebrew or Macports. 
 
 ### Waypoints and initial work
- * Step 1
- * Step 2
- * ...
+ * Deb and rpm packages
+ * Windows packages
+ * Mac OS X packages
 
 ### Optional
-Parts of the project that would be cool once the core is finished.
+The possible optional part of the project is to provide a series of videos or blog posts that show how easy one can install Shogun with all the work carried out during the project.
 
 ### Why this is cool
-Motivation to get involved here.
+By the end of this project we expect Shogun to be easy to install on any major platform and this would be really helpful for the whole project and its popularity.
 
-### Useful ressources
- * Put a list of ressources/links here
+### Useful resources
+* [CMake documentation](http://www.cmake.org/documentation/)
+* [Windows installer](https://msdn.microsoft.com/en-us/library/cc185688(v=vs.85).aspx)
+* [Homebrew](http://brew.sh/)
+* [Macports](https://www.macports.org/)
