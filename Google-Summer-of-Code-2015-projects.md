@@ -27,7 +27,7 @@ The projects we would like to limit in numbers.
 # TODO list
 ## Ideas to port from last year's list:
  * LP/QP optimisation framework.
- * Native Windows port.
+ * [Easy installation on major platforms](GSoC_2015_project_installation)
 
 ## New ideas for which we need descriptions:
  * [Unifying Shogun's linear algebra](GSoC_2015_project_linalg)
