@@ -1,4 +1,4 @@
-# Hidden Markov Models for biological data
+# Hidden Markov Models for gene imputation
 Cleaning up Shogun's HMMS and implementing a gene imputation pipeline
 
 ### Mentors
@@ -13,10 +13,15 @@ You need to be able to
  * count socks
 
 ### Description
-High level description/abstract
+There are  three major parts to this projects
+ * Cleaning up Shogun's HMM implementation (mostly to be done in pre-GSoC phase, see below)
+ * Extending CHMM with a simple MCMC sampler
+ * Build a workflow chain to impute genes
 
 ### Details
-Write about details of the project here.
+In genetics unobserved genotypes are often imputed from a more complete dataset, see [Imputation on Wikipedia](http://en.wikipedia.org/wiki/Imputation_(genetics)). One of the most popular tools uses Markov chain Monte Carlo to accomplish this [paper](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000529).
+
+Fabian needs to put more details here.
 
 ### Waypoints and initial work
  * Step 1
@@ -30,4 +35,11 @@ Parts of the project that would be cool once the core is finished.
 Motivation to get involved here.
 
 ### Useful ressources
- * Put a list of ressources/links here
+ * [Imputation on Wikipedia](http://en.wikipedia.org/wiki/Imputation_(genetics))
+ * [MCMC for gene imputation paper](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000529)
+ * Entrance tasks:
+  * [Remove precompiler flags](https://github.com/shogun-toolbox/shogun/issues/2712)
+  * [Unit test HMMs](https://github.com/shogun-toolbox/shogun/issues/2713)
+  * [Document CHMM](https://github.com/shogun-toolbox/shogun/issues/2714)
+  * [Clean up parallelisation](https://github.com/shogun-toolbox/shogun/issues/2715)
+  * [Notebook on HMM](https://github.com/shogun-toolbox/shogun/issues/2716)
