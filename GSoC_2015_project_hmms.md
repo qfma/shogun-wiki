@@ -37,7 +37,9 @@ The sharp decline in the cost of DNA and RNA sequencing enables genomic research
 ### Useful ressources
  * [Imputation on Wikipedia](http://en.wikipedia.org/wiki/Imputation_(genetics))
  * [MCMC for gene imputation paper](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000529)
- * Entrance tasks:
+
+
+Entrance tasks:
   * [Remove precompiler flags](https://github.com/shogun-toolbox/shogun/issues/2712)
   * [Unit test HMMs](https://github.com/shogun-toolbox/shogun/issues/2713)
   * [Document CHMM](https://github.com/shogun-toolbox/shogun/issues/2714)
