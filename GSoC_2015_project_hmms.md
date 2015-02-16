@@ -43,3 +43,4 @@ Motivation to get involved here.
   * [Document CHMM](https://github.com/shogun-toolbox/shogun/issues/2714)
   * [Clean up parallelisation](https://github.com/shogun-toolbox/shogun/issues/2715)
   * [Notebook on HMM](https://github.com/shogun-toolbox/shogun/issues/2716)
+  * [All (most) HMM issues](https://github.com/shogun-toolbox/shogun/issues?q=is%3Aissue+is%3Aopen+hmm)
