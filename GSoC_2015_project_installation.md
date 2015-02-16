@@ -1,4 +1,4 @@
-# Project title
+# Easy installation on major platforms
 
 ### Mentors
  * Heiko (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
