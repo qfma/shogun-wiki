@@ -10,18 +10,26 @@ Pretty difficult. Requires:
 
  * C++ programming
  * Understanding what neural nets are and how do we learn them
- * OpenCL programming is a plus  
+ * OpenCL programming is a plus 
 
 ### Description
+
+Last year we had a project completed by Khaled Nasr on deep learning which introduced most essential components to use neural networks with Shogun. This project considers extending and improving great things we already have.
 
 ### Details
 
 ### Waypoints and initial work
 
+* First of all, you'd have to dive into the existing good. We believe the easiest way to do that is to improve the code through small iterative changes that improve code quality
+* Training neural nets with CPU only is really slow and we're actually pretty near to have GPU training in Shogun so the next step is to finish up GPU training and finally train some deep net with a GPU
+
+
 ### Optional
 
+* We expect this project to consider active research problems so probably you can even come up with something really-really new!
+
 ### Why this is cool
-Deep learning is *everywhere* 
+Deep learning is *everywhere* - it is on the bleeding edge of research. 
 
 ### Useful resources
 
