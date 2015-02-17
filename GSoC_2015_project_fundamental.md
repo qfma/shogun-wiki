@@ -1,7 +1,7 @@
 # Fundamental Machine Learning Algorithms, Part 2
 **Linear Latent Gaussian Models: Linear and non-linear output**
 
-Project proposed by [Heiko](Heiko%20Strathmann) & [Alessandro](https://github.com/ialong)
+Continuing where we stopped [last year](https://www.google-melange.com/gsoc/project/details/google/gsoc2014/mazumdarparijat/5738600293466112). Project proposed by [Heiko](Heiko%20Strathmann) & [Alessandro](https://github.com/ialong)
 
 
 ### Mentors
