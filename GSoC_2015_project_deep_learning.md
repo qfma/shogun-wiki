@@ -11,16 +11,18 @@ Pretty difficult. Requires:
  * C++ programming
  * Understanding what neural nets are and how do we learn them
  * OpenCL programming is a plus 
+ * Understanding Of inference in graphical models, variational inference is a plus
+ * Experience with Stochastic Optimization is a plus
 
 ### Description
 
-Last year we had a project completed by Khaled Nasr on deep learning which introduced most essential components to use neural networks with Shogun. This project considers extending and improving great things we already have.
+Last year we had an introductory project completed by Khaled Nasr on deep learning which introduced most essential components to use neural networks with Shogun. This project considers extending and improving things we already have with some cutting edge algorithms.
 
 ### Details
 
 ### Waypoints and initial work
 
-* First of all, you'd have to dive into the existing good. We believe the easiest way to do that is to improve the code through small iterative changes that improve code quality
+* First of all, you'd have to dive into the existing goods. We believe the easiest way to do that is to improve the code through small iterative changes that improve code quality
 * Training neural nets with CPU only is really slow and we're actually pretty near to have GPU training in Shogun so the next step is to finish up GPU training and finally train some deep net with a GPU
 
 
@@ -30,6 +32,7 @@ Last year we had a project completed by Khaled Nasr on deep learning which intro
 
 ### Why this is cool
 Deep learning is *everywhere* - it is on the bleeding edge of research. 
+Most importantly, in recent attempts deep learning is getting the benefit of a bayesian treatment and the goal of this project is to marry deep nets and variational inference in the spirit of Reverend Bayes.
 
 ### Useful resources
 
