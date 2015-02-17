@@ -6,22 +6,22 @@
  * Heiko (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
 
 ### Difficulty & Requirements
-Medium
-You need knowledge on
- * Advanced C/C++ (with all the new fancy stuff in C++11)
+**Medium**. You need knowledge on
+ * Advanced C/C++ (knowledge about C++11 is a plus). A reasonable level of comfort with templates, template specialization, partial specialization, SFINAE, ability to read cryptic templated code
  * Numerical Linear algebra
- * OpenMP
- * GPU programming (ViennaCL)
+ * Eigen3, LAPACK (src level familiarity is a plus)
+ * GPU programming (ViennaCL) ( -do- )
  * Shogun algorithms
+ * OpenMP [Optional]
 
 ### Description
-This project aims to finalise and polish Shogun's internal framework for linera algebra. The goal is to offer our algorithm coders a *backend independent* interface that they can use for their linear algebra calls, such as
- * factorising matrices
+This project aims to finalize and polish Shogun's internal framework for linear algebra. The goal is to offer our algorithm coders a *backend independent* interface that they can use for their linear algebra calls, such as
+ * factorizing matrices
  * linear solves
  * applying the same operation to every element of a large matrix
  * dot products
  * etc
-Rather than writing implementation against particular backends (we currently use Eigen3, Lapack, and native), algorithms should be written against ```linalg```. This allows to change backends at compile time, and in particular makes our algorithms independent of the current trend in linear algebra software. It also will allow to put many operations on GPUs *without* changing the implementation (to an extend).
+Rather than writing implementation against particular backends (we currently use Eigen3, Lapack, ViennaCL and Shogun's native implementation), algorithms should be written against ```linalg```. This allows to change backends at compile time, and in particular makes our algorithms independent of the current trend in linear algebra software. It also will allow to put many operations on GPUs *without* changing the implementation (to an extend).
 
 ### Details
 Rahul, this is for you
