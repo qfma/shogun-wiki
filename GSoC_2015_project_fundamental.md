@@ -100,8 +100,13 @@ For instance, in modern computational neuroscience these models (especially ones
  * [Kalman Filter on Wikipedia](http://en.wikipedia.org/wiki/Kalman_filter)
 
 [1] Mark Schmidt [*minFunc*](http://www.cs.ubc.ca/~schmidtm/Software/minFunc.html)
+
 [2] [*Wikipedia - Extended Kalman Filter*](http://en.wikipedia.org/wiki/Extended_Kalman_filter)
+
 [3] Pachitariu M, Petreska B, Sahani M (2013) Recurrent linear lodels of simultaneously-recorded neural populations [*NIPS*](http://papers.nips.cc/paper/4877-recurrent-linear-models-of-simultaneously-recorded-neural-populations.pdf)
+
 [4] Macke J H, Buesing L, Cunningham J P, Byron M Y, Shenoy K V, Sahani M (2011) Empirical models of spiking in neural populations [*NIPS*](https://bbuseruploads.s3.amazonaws.com/mackelab/pop_spike_dyn/downloads/Macke_Buesing_2012_Empirical.pdf?Signature=uWSfUKZ%2BhM1dQHa2GSiSs7BLiVI%3D&Expires=1424177382&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82)
+
 [5] Buesing L, Macke J H, Sahani M (2012) Spectral learning of linear dynamics from generalised-linear observations with application to neural population data [*NIPS*](https://bbuseruploads.s3.amazonaws.com/mackelab/pop_spike_dyn/downloads/Buesing_Macke_2013_PLSID.pdf?Signature=Qegy3oNWdd%2BR1QmjE8Kn2b4G2mA%3D&Expires=1424177567&AWSAccessKeyId=0EMWEFSGA12Z1HF1TZ82)
+
 [6] Paninski L, Ahmadian Y, Ferreira D G, Koyama S, Rad K R, Vidne M, Vogelstein J, Wu W (2010) A new look at state-space models for neural data [*Journal of Computational Neuroscience*](http://link.springer.com/article/10.1007/s10827-009-0179-x/fulltext.html) 
