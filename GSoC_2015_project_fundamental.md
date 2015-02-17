@@ -1,5 +1,6 @@
 # Fundamental Machine Learning Algorithms, Part 2
 **Linear Latent Gaussian Models: Linear and non-linear output**
+
 Project proposed by [Heiko](Heiko%20Strathmann) & [Alessandro](https://github.com/ialong)
 
 
