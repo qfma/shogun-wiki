@@ -26,20 +26,19 @@ This year's GSoC is about improving Shogun, rather than extending it. Exceptions
  
 ## Extending Shogun:
 The projects we would like to limit in numbers.
+
+### Algorithms
  * [Fundamental ML 2: LGSSMs](GSoC_2015_project_fundamental)
  * [LP/QP Framework](GSoC_2015_project_lpqp)
- * [MCMC & Stan](GSoC_2015_project_MCMC_Stan)
- * [Density Estimation in Infinite Dimensional Exponential Families]
+ * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2015_project_kernel_infinite_exponential)
+ * [Deep learning](GSoC_2015_project_deep_learning)
+
+### Framework
  * [Independent jobs Framework](GSoC_2015_cluster_shogun)
-(GSoC_2015_project_kernel_infinite_exponential)
+ * [MCMC & Stan](GSoC_2015_project_MCMC_Stan)
 
 
 # TODO list
-## Ideas to port from last year's list:
-
-## New ideas for which we need descriptions:
- * [Deep learning](GSoC_2015_project_deep_learning)
-
 ## Other ideas:
  * Cool pipelines
    * A kaggle pipeline for supervised prediction.
