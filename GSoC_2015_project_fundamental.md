@@ -24,13 +24,13 @@ In this setting, inference on the latent variables is exact and learning can be 
  
 Overall, the following should be implemented.
 
- **Models:**
+**Models:**
  * PPCA
  * Factor Analysis
  * Linear Gaussian State Space Model (LGSSM)
  * Generalised Linear Output State Space Model (with linear Gaussian latent dynamics)
 
- **Algorithms:**
+**Algorithms:**
  * Expectation Maximization (as a general framework, for both the exact and the approximate setting)
  * (Kalman) Filtering
  * (Kalman) Smoothing
