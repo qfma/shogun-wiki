@@ -1,8 +1,7 @@
 # LP/QP Framework
-Cleaning up Shogun's HMMS and implementing a gene imputation pipeline
 
 ### Mentors
- * [Viktor Gal](http://qfma.de/) (github: [vigsterkr](https://github.com/vigsterkr), IRC: wiking)
+ * [Viktor Gal](http://maeth.com/) (github: [vigsterkr](https://github.com/vigsterkr), IRC: wiking)
 
 ### Difficulty & Requirements
 **Advanced**. You need to be able to:
