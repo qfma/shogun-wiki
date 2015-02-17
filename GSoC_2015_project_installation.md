@@ -37,16 +37,7 @@ In addition, we want the Python bindings to be installable as:
  * ```conda install shogun```
 
 ### Waypoints and initial work
-Nightly binary packages:
- * Deb and rpm packages
- * Mac OS X packages
- * Windows packages
-
-Integration into existing installation systems
- * ppa for latest Ubuntu. Add more version to Debian.
- * Python package index for Ubuntu/Mac/Win
- * Conda Python integration for Ubuntu/Mac/Win
- * Macports and homebrew package index for Ubuntu/Mac/Win
+See above. Initial work would be to start prototyping a solution for one of the above systems. Pick any.
 
 ### Optional
 The possible optional part of the project is to provide a series of videos or blog posts that show how easy one can install Shogun with all the work carried out during the project.
