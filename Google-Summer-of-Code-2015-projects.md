@@ -19,10 +19,10 @@ This year's GSoC is about improving Shogun, rather than extending it. Exceptions
 # Projects
 ## Improving Shogun
  * [**Easy installation on major platforms**](GSoC_2015_project_installation)
+ * [Native MS Windows port](GSoC_2015_windows)
  * [HMMs for biological data](GSoC_2015_project_hmms)
  * [Unifying Shogun's linear algebra](GSoC_2015_project_linalg)
  * [Shogun cloud extensions](GSoC_2015_cloud_shogun)
- * [Native MS Windows port](GSoC_2015_windows)
  
 ## Extending Shogun:
 The projects we would like to limit in numbers.
@@ -31,7 +31,7 @@ The projects we would like to limit in numbers.
  * [Fundamental ML 2: LGSSMs](GSoC_2015_project_fundamental)
  * [LP/QP Framework](GSoC_2015_project_lpqp)
  * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2015_project_kernel_infinite_exponential)
- * [Deep learning](GSoC_2015_project_deep_learning)
+ * [Hip Deep learning](GSoC_2015_project_deep_learning)
 
 ### Framework
  * [Independent jobs Framework](GSoC_2015_cluster_shogun)
