@@ -1,4 +1,6 @@
-# Deep learning
+# Hip Deep learning
+
+Taking [last year's project](https://www.google-melange.com/gsoc/project/details/google/gsoc2014/khalednasr92/5657382461898752) to a new level.
 
 ### Mentors
  * Theofanis Karaletsos
