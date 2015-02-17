@@ -1,9 +1,9 @@
 # `linalg`: Unifying Shogun's linear algebra
 
 ### Mentors
- * Rahul (github: [lambday](https://github.com/lambday), IRC: lambday)
- * Sergey (github: [lisitsyn](https://github.com/lisitsyn), IRC: lisitsyn)
- * Heiko (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
+ * [Rahul](Rahul%20De) (github: [lambday](https://github.com/lambday), IRC: lambday)
+ * [Sergey](Sergey%20Lisitsyn) (github: [lisitsyn](https://github.com/lisitsyn), IRC: lisitsyn)
+ * [Heiko](Heiko%20Strathmann) (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
 
 ### Difficulty & Requirements
 **Medium**. You need knowledge on
