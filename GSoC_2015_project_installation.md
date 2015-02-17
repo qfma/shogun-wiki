@@ -1,9 +1,10 @@
 # Easy installation on major platforms
-**This is THE SINGLE MOST IMPORTANT project for GSoC**. We might take 2 students with different OS skills here as we really want to solve this once and for all.
+**This is THE SINGLE MOST IMPORTANT project for GSoC**. It does not involve any Machine Learning but is a good way for hackers to get involved in Shogun. We might take 2 students with different OS skills here.
 
 ### Mentors
  * [Sergey](Sergey%20Lisitsyn) (github: [lisitsyn](https://github.com/lisitsyn), IRC: lisitsyn)
- * Viktor
+ * [Viktor](Viktor%20Gal) (github: [vigsterkr](https://github.com/vigsterkr), IRC wiking)
+ * [Bjoern](Viktor%20Gal) (github: [vigsterkr](https://github.com/vigsterkr), IRC wiking)
  * [Heiko](Heiko%20Strathmann) (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
 
 ### Difficulty & Requirements
