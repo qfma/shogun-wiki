@@ -48,6 +48,7 @@ The projects we would like to limit in numbers.
  * Easy linalg
  * Get rid of static interfaces, migrate all tests etc
  * Matlab swig bindings
+ * [REST interface](GSoC_2015_project_rest)
 
 ## Clean ups:
  * Modularise Shogun
