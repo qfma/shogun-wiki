@@ -35,7 +35,6 @@ The projects we would like to limit in numbers.
 
 # TODO list
 ## Ideas to port from last year's list:
- * LP/QP optimisation framework.
 
 ## New ideas for which we need descriptions:
  * [Deep learning](GSoC_2015_project_deep_learning)
