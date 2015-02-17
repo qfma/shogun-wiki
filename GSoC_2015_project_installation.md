@@ -43,7 +43,7 @@ See above. Initial work would be to start prototyping a solution for one of the 
 The possible optional part of the project is to provide a series of videos or blog posts that show how easy one can install Shogun with all the work carried out during the project.
 
 ### Why this is cool
-By the end of this project we expect Shogun to be easy to install on any major platform and this would be really helpful for the whole project and its popularity. Again **TOP PRIORITY***
+By the end of this project we expect Shogun to be easy to install on any major platform and this would be really helpful for the whole project and its popularity. Again ***TOP PRIORITY***
 
 ### Useful resources
 * [CMake documentation](http://www.cmake.org/documentation/)
