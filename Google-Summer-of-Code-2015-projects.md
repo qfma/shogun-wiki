@@ -52,5 +52,5 @@ The projects we would like to limit in numbers.
 
 ## Clean ups:
  * Modularise Shogun
- * Replace parameter framework
+ * [Replace parameter framework](GSoC_2015_project_parameters)
  * Benchmark existing algos and improve!
