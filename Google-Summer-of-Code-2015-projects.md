@@ -21,16 +21,17 @@ This year's GSoC is about improving Shogun, rather than extending it. Exceptions
  * [**Easy installation on major platforms**](GSoC_2015_project_installation)
  * [HMMs for biological data](GSoC_2015_project_hmms)
  * [Unifying Shogun's linear algebra](GSoC_2015_project_linalg)
- * [LP/QP Framework](GSoC_2015_project_lpqp)
- * [Independent jobs Framework](GSoC_2015_cluster_shogun)
  * [Shogun cloud extensions](GSoC_2015_cloud_shogun)
  * [Native MS Windows port](GSoC_2015_windows)
  
 ## Extending Shogun:
 The projects we would like to limit in numbers.
  * [Fundamental ML 2: LGSSMs](GSoC_2015_project_fundamental)
+ * [LP/QP Framework](GSoC_2015_project_lpqp)
  * [MCMC & Stan](GSoC_2015_project_MCMC_Stan)
- * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2015_project_kernel_infinite_exponential)
+ * [Density Estimation in Infinite Dimensional Exponential Families]
+ * [Independent jobs Framework](GSoC_2015_cluster_shogun)
+(GSoC_2015_project_kernel_infinite_exponential)
 
 
 # TODO list
