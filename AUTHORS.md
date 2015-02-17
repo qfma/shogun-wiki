@@ -11,9 +11,9 @@ The Shogun Team  {#authors}
  * [Fernando J. Iglesias García, irc: iglesiasg](Fernando J. Iglesias García)
  * [Kevin Hughes, irc: pickle27](Kevin Hughes)
  * [Rahul De, irc: lambday](Rahul De)
- * Viktor Gal, irc: wiking
- * Björn Esser, irc: besser82
- * Thoralf Klein, irc: thoralf
+ * [Viktor Gal, irc: wiking](Viktor Gal)
+ * [Björn Esser, irc: besser82](Bjoern Esser)
+ * [Thoralf Klein, irc: thoralf](Thoralf Klein)
 
 ## Inactive members:
  * Christian Widmer
