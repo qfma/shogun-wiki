@@ -15,3 +15,4 @@ I've started using Shogun in the beginning of my PhD studies, around 2011. Then 
  * automated testing, building and static analysis.
  * get Shogun to compile on Windows
  * introducing an LP/QP framework in Shogun
+ * Shogun build in general
