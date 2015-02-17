@@ -1,6 +1,6 @@
 #Native MS Windows port
 
-*High priority project*, may be part of the [installation project](GSoC_2015_project_installation)
+**High priority project**, may be part of the [installation project](GSoC_2015_project_installation)
 
 ### Mentors
  * [Viktor Gal](http://maeth.com/) (github: [vigsterkr](https://github.com/vigsterkr), IRC: wiking)
