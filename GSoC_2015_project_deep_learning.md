@@ -34,6 +34,12 @@ Last year we had an introductory project completed by Khaled Nasr on deep learni
 Deep learning is *everywhere* - it is on the bleeding edge of research. 
 Most importantly, in recent attempts deep learning is getting the benefit of a bayesian treatment and the goal of this project is to marry deep nets and variational inference in the spirit of Reverend Bayes.
 
+### Papers
+- [Auto-Encoding Variational Bayes](http://arxiv.org/abs/1312.6114) by Kingma and Welling
+- [Stochastic Backpropagation and Approximate Inference in Deep Generative Models](http://arxiv.org/abs/1401.4082) by Rezende et al
+- [Neural Variational Inference and Learning in Belief Networks](http://arxiv.org/abs/1402.0030) by Mnih and Gregor
+- [Deep Exponential Families](http://arxiv.org/abs/1411.2581) by Ranganath, Blei et al
+
 ### Useful resources
 
 - "Neural Networks for Machine Learning" by Geoffrey Hinton (https://www.coursera.org/course/neuralnets) 
