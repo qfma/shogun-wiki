@@ -1,6 +1,6 @@
 # Easy installation on major platforms
 **This is THE SINGLE MOST IMPORTANT project for GSoC**. It does not involve any Machine Learning but is a good way for hackers to get involved in Shogun. We might take 2 students with different OS skills here.
-See also the [windows](GSoC_2015_project_installation) project.
+See also the [windows](GSoC_2015_windows) project.
 
 ### Mentors
  * [Sergey](Sergey%20Lisitsyn) (github: [lisitsyn](https://github.com/lisitsyn), IRC: lisitsyn)
@@ -24,7 +24,7 @@ We have to admit that Shogun is not really user-friendly to install. Users are g
 
 ### Details
 
-This project is a massive initiative to finally make Shogun really easy to try on all major platforms. First of all, we want to have an infrastructure to have a daily build of Shogun for Debian based platforms. This includes covering .rpm packages which would make it easy to use Shogun on distributions like Fedora and RHEL. Next, we expect to see an easy way to install Shogun on Mac OS X using Homebrew or Macports. Finally (and more involved than the previous parts), a native build and installation on Windows (possibly in [another project](GSoC_2015_project_installation))
+This project is a massive initiative to finally make Shogun really easy to try on all major platforms. First of all, we want to have an infrastructure to have a daily build of Shogun for Debian based platforms. This includes covering .rpm packages which would make it easy to use Shogun on distributions like Fedora and RHEL. Next, we expect to see an easy way to install Shogun on Mac OS X using Homebrew or Macports. Finally (and more involved than the previous parts), a native build and installation on Windows (possibly in [another project](GSoC_2015_windows))
 
 All of these commands are expected to work on any popular platform Linux/Max/Win machine:
  * ```apt-get install shogun```
