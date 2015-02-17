@@ -7,6 +7,7 @@ This year's GSoC is about improving Shogun, rather than extending it. Exceptions
  * *Fewer* new algorithms. Rather improve existing ones: Usability, efficiency, documentation, application
  * *Fewer* students. More intense mentoring, interaction between students, blogging, documenting
  * Projects on
+   * Installation: most important
    * Clean ups of: framework, build process, algorithms, usability, documentation
    * Removing legacy code
    * Efficiency: High performance computing, parallelisation, cloud, benchmarking
@@ -15,11 +16,15 @@ This year's GSoC is about improving Shogun, rather than extending it. Exceptions
    * Usablity: Building and Installing Shogun has to be easier
 
 
-# Finished descriptions
+# Projects
+## Improving Shogun
+ * [**Easy installation on major platforms**](GSoC_2015_project_installation)
  * [HMMs for biological data](GSoC_2015_project_hmms)
+ * [Unifying Shogun's linear algebra](GSoC_2015_project_linalg)
 
-## New things:
+## Extending Shogun:
 The projects we would like to limit in numbers.
+ * [Fundamental ML: LGSSMs](GSoC_2015_project_fundamental)
  * [MCMC & Stan](GSoC_2015_project_MCMC_Stan)
  * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2015_project_kernel_infinite_exponential)
 
@@ -27,13 +32,9 @@ The projects we would like to limit in numbers.
 # TODO list
 ## Ideas to port from last year's list:
  * LP/QP optimisation framework.
- * [Easy installation on major platforms](GSoC_2015_project_installation)
 
 ## New ideas for which we need descriptions:
- * [Unifying Shogun's linear algebra](GSoC_2015_project_linalg)
  * [Deep learning](GSoC_2015_project_deep_learning)
- * [Fundamental ML: LGSSMs](GSoC_2015_project_fundamental)
- * [HMMs for biological data](GSoC_2015_project_hmms)
 
 ## Other ideas:
  * Cool pipelines
@@ -45,7 +46,6 @@ The projects we would like to limit in numbers.
 
 ## Infrastructure:
  * Easy Model selection!
- * Easy linalg
  * Get rid of static interfaces, migrate all tests etc
  * Matlab swig bindings
  * [REST interface](GSoC_2015_project_rest)
