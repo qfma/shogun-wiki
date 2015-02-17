@@ -24,7 +24,7 @@ This year's GSoC is about improving Shogun, rather than extending it. Exceptions
 
 ## Extending Shogun:
 The projects we would like to limit in numbers.
- * [Fundamental ML: LGSSMs](GSoC_2015_project_fundamental)
+ * [Fundamental ML 2: LGSSMs](GSoC_2015_project_fundamental)
  * [MCMC & Stan](GSoC_2015_project_MCMC_Stan)
  * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2015_project_kernel_infinite_exponential)
 
