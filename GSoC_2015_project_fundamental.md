@@ -4,7 +4,7 @@ Project proposed by [Heiko](Heiko%20Strathmann) & [Alessandro](https://github.co
 
 
 ### Mentors
- * [Fernando](Fernando%20Iglesias) (github: [iglesias](https://github.com/iglesias), IRC iglesias)
+ * [Fernando](Fernando%20J.%20Iglesias García) (github: [iglesias](https://github.com/iglesias), IRC iglesias)
  * [Heiko](Heiko%20Strathmann) (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
  * [Lars Buesing](http://www.gatsby.ucl.ac.uk/~lars/) ?
 
