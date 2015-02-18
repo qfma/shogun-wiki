@@ -55,3 +55,4 @@ Most importantly, in recent attempts deep learning is getting the benefit of a b
 - [Reproduce "Text understanding from scratch" neural model with a notebook](https://github.com/shogun-toolbox/shogun/issues/2701)
 - [Support DotFeatures in neural networks](https://github.com/shogun-toolbox/shogun/issues/2709)
 - [Add preprocessor layer for neural network](https://github.com/shogun-toolbox/shogun/issues/2710)
+- [Output gradient information in neural nets](https://github.com/shogun-toolbox/shogun/issues/2723)
