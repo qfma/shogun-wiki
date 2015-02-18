@@ -10,7 +10,7 @@ Interests: Statistical Machine Learning, Kernel Methods, C++ Design Problems, Al
 
 ### Shogun
 
-I came in touch with Shogun since January 2013 through one course project. I became more involved during my participation in GSoC 2013 and 2014, both years with Heiko as my Shogun mentor. I worked on the log-determinant estimation module for large sparse matrices, statistical hypothesis testing module and feature selection framework. I also wrote the initial design and components in the linalg library for shogun.
+I came in touch with Shogun since January 2013 through one course project. I became more involved during my participation in GSoC 2013 and 2014, both years with [Heiko](Heiko%20Strathmann) as my Shogun mentor. I worked on the log-determinant estimation module for large sparse matrices, statistical hypothesis testing module and feature selection framework. I also wrote the initial design and components in the linalg library for shogun.
 
 ### Ask him about
 
