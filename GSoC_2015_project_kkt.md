@@ -1,7 +1,7 @@
 # Solver for the KKT System
 
 ### Mentors
- * Jacky Chow [jckchow_at_ucalgary.ca]
+ * Jacky Chow (jckchow_at_ucalgary.ca)
  * [Viktor Gal](http://maeth.com/) (github: [vigsterkr](https://github.com/vigsterkr), IRC: wiking)
 
 ### Difficulty & Requirements
