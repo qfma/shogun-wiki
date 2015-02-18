@@ -3,8 +3,9 @@
 Taking [last year's project](https://www.google-melange.com/gsoc/project/details/google/gsoc2014/khalednasr92/5657382461898752) to a new level.
 
 ### Mentors
- * Theofanis Karaletsos
- * Sergey (github: [lisitsyn](https://github.com/lisitsyn), IRC: lisitsyn)
+ * [Theofanis Karaletsos](http://cbio.mskcc.org/directory/theofanis-karaletsos/index.html)
+ * [Gunnar Rätsch](http://cbio.mskcc.org/research/ratsch-research-group/)
+ * [Sergey](Sergey%20Lisitsyn) (github: [lisitsyn](https://github.com/lisitsyn), IRC: lisitsyn)
 
 ### Difficulty & Requirements
 
