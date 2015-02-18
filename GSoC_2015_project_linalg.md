@@ -10,7 +10,7 @@
  * Advanced C/C++ (knowledge about C++11 is a plus). A reasonable level of comfort with templates, template specialization, partial specialization, SFINAE, ability to read complex templated code
  * Numerical Linear algebra
  * Eigen3, LAPACK (src level familiarity is a plus)
- * GPU programming (ViennaCL) ( -do- )
+ * GPU programming (OpenCL/ViennaCL)
  * Shogun algorithms
  * OpenMP [Optional]
 
