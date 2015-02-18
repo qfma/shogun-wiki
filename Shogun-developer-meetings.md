@@ -5,7 +5,7 @@
 ## Stammtisch
  * No logs put yet
 
-## Random discussion
+## Random discussions
  * [Building a proper manual (Feb. 18, 2015, ~1hr)](http://www.shogun-toolbox.org/irclogs/%23shogun.2015-02-18.log.html#t17:02)
 
 ## Scheduled core-dev meetings
