@@ -40,7 +40,7 @@ Rather than writing implementation against particular backends (we currently use
     * Eigen
     * SVD
 (see issue #2526, #2527).
- * A large part will be to read through Shogun's core algorithms and make them use the new interface. 
+ * A large part will be to **read through Shogun's core algorithms and make them use the new interface**. This is where you show off all the cool stuffs you did in GSoC!
 
 ### Waypoints and initial work
  * Create github issues on using the existing linalg calls in algorithms
