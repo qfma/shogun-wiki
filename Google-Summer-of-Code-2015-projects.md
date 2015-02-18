@@ -29,6 +29,7 @@ The projects we would like to limit in numbers.
 
 ### Algorithms
  * [Fundamental ML 2: LGSSMs](GSoC_2015_project_fundamental)
+ * [Solver for the KKT System](GSoC_2015_project_kkt)
  * [LP/QP Framework](GSoC_2015_project_lpqp)
  * [Density Estimation in Infinite Dimensional Exponential Families](GSoC_2015_project_kernel_infinite_exponential)
  * [Hip Deep learning](GSoC_2015_project_deep_learning)
