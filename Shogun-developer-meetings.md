@@ -6,7 +6,7 @@
  * No logs put yet
 
 ## Random discussion
- * [Building a proper manual (Feb. 18, 2015)](Building_a_proper_manual)
+ * [Building a proper manual (Feb. 18, 2015, ~1hr)](http://www.shogun-toolbox.org/irclogs/%23shogun.2015-02-18.log.html#t17:02)
 
 ## Scheduled core-dev meetings
  * [Meeting 1 (August 8, 2013)](Meeting-1)
