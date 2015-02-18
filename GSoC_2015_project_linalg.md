@@ -22,6 +22,7 @@ This project aims to finalize and polish Shogun's internal framework for linear 
  * applying the same operation to every element of a large matrix
  * dot products
  * various utilities
+
 Rather than writing implementation against particular backends (we currently use Eigen3, Lapack, ViennaCL and Shogun's native implementation), algorithms should be written against ```linalg```. This allows to change backends at compile time, and in particular makes our algorithms independent of the current trend in linear algebra software. It also will allow to put many operations on GPUs *without* changing the implementation (to an extend).
 
 ### Details
