@@ -7,7 +7,7 @@
 
 ### Difficulty & Requirements
 **Medium**. You need knowledge on
- * Advanced C/C++ (knowledge about C++11 is a plus). A reasonable level of comfort with templates, [template specialization](http://en.cppreference.com/w/cpp/language/template_specialization), [partial specialization](http://en.cppreference.com/w/cpp/language/partial_specialization), [traits](http://accu.org/index.php/journals/442), [SFINAE](http://en.cppreference.com/w/cpp/language/sfinae), ability to read/write non-trivial template code
+ * Advanced C/C++ (knowledge about C++11 is a plus). A reasonable level of comfort with [templates](http://en.cppreference.com/w/cpp/language/class_template), [template specialization](http://en.cppreference.com/w/cpp/language/template_specialization), [partial specialization](http://en.cppreference.com/w/cpp/language/partial_specialization), [traits](http://accu.org/index.php/journals/442), [SFINAE](http://en.cppreference.com/w/cpp/language/sfinae), ability to read/write non-trivial template code
  * Numerical Linear algebra
  * Eigen3, LAPACK (src level familiarity is a plus)
  * GPU programming (OpenCL/ViennaCL)
