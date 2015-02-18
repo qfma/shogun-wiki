@@ -5,6 +5,9 @@
 ## Stammtisch
  * No logs put yet
 
+## Random discussion
+ * [Building a proper manual (Feb. 18, 2015)](Building_a_proper_manual)
+
 ## Scheduled core-dev meetings
  * [Meeting 1 (August 8, 2013)](Meeting-1)
  * [Meeting 2 (August 27, 2013)](Meeting-2)
