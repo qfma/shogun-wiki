@@ -1,7 +1,7 @@
 # `linalg`: Unifying Shogun's linear algebra
 
 ### Mentors
- * [Rahul](Rahul%20De) (github: [lambday](https://github.com/lambday), IRC: lambday)
+ * [Soumyajit](Soumyajit%20De%20[Rahul]) (github: [lambday](https://github.com/lambday), IRC: lambday)
  * [Sergey](Sergey%20Lisitsyn) (github: [lisitsyn](https://github.com/lisitsyn), IRC: lisitsyn)
  * [Heiko](Heiko%20Strathmann) (github: [karlnapf](https://github.com/karlnapf), IRC: HeikoS)
 
