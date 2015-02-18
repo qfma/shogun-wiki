@@ -54,4 +54,10 @@ Rahul, maybe do an openmp backend for the independent jobs? Not sure here though
 This project will massively increase both performance and sustainability of Shogun. We will get parallelism of many algorithms for free and at the same time open up ways for using different, better, backends (such as GPUs) in the future. It will furthermore allow to write algorithms without knowledge of backend internals. Nobody wants to deal with Lapack directly ;)
 
 ### Useful resources
- * [linalg README](https://github.com/shogun-toolbox/shogun/wiki/README_linalg)
+ * [`linalg` README](https://github.com/shogun-toolbox/shogun/wiki/README_linalg)
+ * [cppreference](http://en.cppreference.com/w/)
+ * [`template` and `typename` in C++](http://eigen.tuxfamily.org/dox/TopicTemplateKeyword.html)
+ * [Eigen3 doc](http://eigen.tuxfamily.org/dox/index.html)
+ * [A Gentle Introduction to OpenCL](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854)
+ * [ViennaCL doc](http://viennacl.sourceforge.net/doc/)
+ * [Numerical Linear Algebra by Trefethen and Bau](https://javierolivares.files.wordpress.com/2009/04/numerical-linear-algebra-trefethenbau.pdf)
