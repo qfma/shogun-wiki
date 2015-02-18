@@ -9,13 +9,14 @@
 Not difficult but requires careful design.
 
 ### Description
-High level description/abstract
+
+We believe in the post-web 2.0 world there is a need for REST based simple protocol for simple machine learning tasks
 
 ### Details
 Write about details of the project here.
 
 ### Waypoints and initial work
- * S
+ * Choose a good embedded web server to handle requests and integrate it to the Shogun codebase 
 
 ### Optional
 Make a cool demo.
