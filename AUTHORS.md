@@ -10,7 +10,7 @@ The Shogun Team  {#authors}
  * [Heiko Strathmann, irc: HeikoS](Heiko Strathmann)
  * [Fernando J. Iglesias García, irc: iglesiasg](Fernando J. Iglesias García)
  * [Kevin Hughes, irc: pickle27](Kevin Hughes)
- * [Rahul De, irc: lambday](Rahul De)
+ * [Rahul De, irc: lambday](Soumyajit De [Rahul])
  * [Viktor Gal, irc: wiking](Viktor Gal)
  * [Björn Esser, irc: besser82](Bjoern Esser)
  * [Thoralf Klein, irc: thoralf](Thoralf Klein)
