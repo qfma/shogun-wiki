@@ -15,6 +15,7 @@ This year's GSoC is about improving Shogun, rather than extending it. Exceptions
    * Pipelines & Framework: Improve usability on standard workflow pipelines
    * Usablity: Building and Installing Shogun has to be easier
 
+**[Mentors (and students) this year](GSoC_2015_mentors_students_)**
 
 # Projects
 ## Improving Shogun
