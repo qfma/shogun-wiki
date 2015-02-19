@@ -15,7 +15,7 @@ Cleaning up Shogun's HMMS and implementing a gene imputation pipeline
 
 ### Description
 
-Hidden Markov Models (HMMs) have been used extensively in Bioinformatics to solve problems of biological sequence analysis. Among others, HMMs can be used to predict transcription factor binding sites [1], align sequences [2], find conserved sequence motives [3] and statistically infer ("impute") unobserved genotypes for Genome Wide Association Studies ([GWAS](http://en.wikipedia.org/wiki/Genome-wide_association_study)) [4]. One of the most popular tools at the moment that is able to impute genotypes, [Impute 2](https://mathgen.stats.ox.ac.uk/impute/impute_v2.html) [5, 6], uses HMMs and a Markov Chain Monte Carlo type algorithm; however, the software is not available under an open source license and only free for [academic use](http://www.stats.ox.ac.uk/~marchini/software/gwas/gwas.html#licence). In this project you will cleanup and optimize the HMM implementation in the Shogun Toolbox and subsequently use the HMMs to build a Bioinformatics pipeline to statistically impute genotypes in a sample dataset using the densely typed [1000 genome](http://www.1000genomes.org/) data as a background set.
+Hidden Markov Models (HMMs) have been used extensively in bioinformatics to solve problems of biological sequence analysis. Among others, HMMs can be used to predict transcription factor binding sites [1], align sequences [2], find conserved sequence motives [3] and statistically infer ("impute") unobserved genotypes for Genome Wide Association Studies ([GWAS](http://en.wikipedia.org/wiki/Genome-wide_association_study)) [4]. One of the most popular tools at the moment that is able to impute genotypes, [Impute 2](https://mathgen.stats.ox.ac.uk/impute/impute_v2.html) [5, 6], uses HMMs and a Markov Chain Monte Carlo type algorithm; however, the software is not available under an open source license and only free for [academic use](http://www.stats.ox.ac.uk/~marchini/software/gwas/gwas.html#licence). In this project you will cleanup and optimize the HMM implementation in the Shogun Toolbox and subsequently use the HMMs to build a bioinformatics pipeline to statistically impute genotypes in a sample dataset using the densely typed [1000 genome](http://www.1000genomes.org/) data as a background set.
 
 The project is a great opportunity to combine machine learning with some real-world large scale genomic data and would enable the student to deepen her/his understanding of biological sequence analysis and large scale genomics.
 
@@ -30,14 +30,14 @@ There are  three major parts to this projects
  None yet.
 
 ### Why this is cool
-This project is an amazing opportunity to learn about both efficient C++ implementations of HMMs and their usage in practical bioinformatics. Furthermore, the combination of cleaning up Shogun's internals, and then applying them to real-world problems of other scientific realms, is aligned very closely with our goals for this GSoC. Given a successful completion, expect your work to be used by scientists all over the world.
-
-The sharp decline in the cost of DNA and RNA sequencing enables genomic research on an unprecedented scale in a multitude of organisms. However, modern biology is challenged by the wast amounts of data generated and depends more and more on machine learning algorithms to analyze the produced data in order to further our understanding of the underlying biology. As such, the student will work in the intersection between machine learning, bioinformatics and genome biology, developing open source tools for the community. These tools could be used in Genome Wide Association Studies ([GWAS](http://en.wikipedia.org/wiki/Genome-wide_association_study)) that aim to enhance our understanding of major diseases like cancer or epidemics such as obesity.
+This project is an amazing opportunity to learn about both efficient C++ implementations of HMMs and their usage in practical bioinformatics.
+The student will work in the intersection between machine learning, bioinformatics and genome biology, developing open source tools for the community. These tools could be used in a variety of ways, for example in Genome Wide Association Studies ([GWAS](http://en.wikipedia.org/wiki/Genome-wide_association_study)) that aim to enhance our understanding of major diseases like cancer or epidemics, such as obesity. Furthermore, the combination of cleaning up Shogun's internals, and then applying them to real-world problems of other scientific realms, is aligned very closely with our goals for this GSoC. Given a successful completion, expect your work to be used by scientists all over the world.
 
 ### Useful ressources
  * [Imputation on Wikipedia](http://en.wikipedia.org/wiki/Imputation_(genetics))
+ * [HMM on Wikipedia](http://en.wikipedia.org/wiki/Hidden_Markov_model)
+ * [HMM primer by Sean R Eddy](http://www.nature.com/nbt/journal/v22/n10/full/nbt1004-1315.html)
  * [MCMC for gene imputation paper](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000529)
-
 
 Entrance tasks:
   * [Remove precompiler flags](https://github.com/shogun-toolbox/shogun/issues/2712)
@@ -47,6 +47,7 @@ Entrance tasks:
   * [Notebook on HMM](https://github.com/shogun-toolbox/shogun/issues/2716)
   * [All (most) HMM issues](https://github.com/shogun-toolbox/shogun/issues?q=is%3Aissue+is%3Aopen+hmm)
 
+### Bibliography
 [1] Kyoung-Jae W, Bing R and Wei W (2010) Genome-wide prediction of transcription factor binding sites using an integrated model [*Genome Biology*](http://genomebiology.com/2010/11/1/R7)
 
 [2] Eddy SR (2008) A Probabilistic Model of Local Sequence Alignment That Simplifies Statistical Significance Estimation [*PLoS Computational Biology*](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000069#pcbi-1000069-g005)
